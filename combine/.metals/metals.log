@@ -1,0 +1,1041 @@
+2023.11.02 04:51:35 INFO  Started: Metals version 1.1.0 in folders '/home/ben/RV32ISC' for client Visual Studio Code 1.83.1.
+2023.11.02 04:51:35 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.02 04:52:49 INFO  no build target found for /home/ben/RV32ISC/src/test/scala/rv32isc/AluTest.scala. Using presentation compiler with project's scala-library version: 3.3.1
+11月 02, 2023 11:45:13 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+資訊: Unsupported notification method: $/setTrace
+2023.11.02 14:39:37 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala
+2023.11.02 17:25:21 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala
+2023.11.02 17:25:41 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/AluTest.scala
+2023.11.02 17:26:02 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/DecoderTest.scala
+2023.11.02 17:26:17 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/MemDataTest.scala
+2023.11.02 17:26:23 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/MemInstTest.scala
+11月 02, 2023 5:26:27 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 505
+2023.11.02 17:26:28 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/PCRegTest.scala
+2023.11.02 17:26:35 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/RegistersTest.scala
+2023.11.02 17:41:53 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/RegistersTest.scala
+2023.11.02 17:46:18 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/RegistersTest.scala
+2023.11.02 17:46:42 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/RegistersTest.scala
+2023.11.02 17:46:48 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/RegistersTest.scala
+2023.11.02 17:47:07 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala
+2023.11.02 17:47:12 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/AluTest.scala
+2023.11.02 17:47:15 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/DecoderTest.scala
+2023.11.02 17:47:21 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/MemDataTest.scala
+2023.11.02 17:47:27 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/MemInstTest.scala
+2023.11.02 17:47:31 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/PCRegTest.scala
+2023.11.02 17:47:36 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/RegistersTest.scala
+2023.11.02 22:03:18 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala
+2023.11.03 00:51:29 INFO  Started: Metals version 1.1.0 in folders '/home/ben/RV32ISC' for client Visual Studio Code 1.84.0.
+2023.11.03 00:51:30 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.03 00:51:33 INFO  no build target found for /home/ben/RV32ISC/src/test/scala/rv32isc/MemInstTest.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.03 01:36:29 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/MemInstTest.scala
+2023.11.03 01:36:50 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala
+2023.11.03 01:37:22 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/AluTest.scala
+11月 03, 2023 1:37:24 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 147
+2023.11.03 01:37:31 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/DecoderTest.scala
+2023.11.03 01:37:40 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/MemDataTest.scala
+11月 03, 2023 1:37:52 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 204
+2023.11.03 01:37:58 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/PCRegTest.scala
+2023.11.03 01:38:05 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/RegistersTest.scala
+2023.11.03 01:44:52 INFO  Started: Metals version 1.1.0 in folders '/home/ben/RV32ISC' for client Visual Studio Code 1.84.0.
+2023.11.03 01:44:58 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.03 01:45:02 INFO  no build target found for /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.03 02:05:05 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala
+2023.11.03 02:06:57 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala
+2023.11.03 02:07:11 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala
+2023.11.07 05:18:27 INFO  Started: Metals version 1.1.0 in folders '/home/ben/RV32ISC' for client Visual Studio Code 1.84.0.
+2023.11.07 05:18:27 INFO  time: initialize in 0.21s
+2023.11.07 05:18:43 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.07 21:51:49 INFO  Started: Metals version 1.1.0 in folders '/home/ben/RV32ISC' for client Visual Studio Code 1.84.0.
+2023.11.07 21:51:55 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+11月 08, 2023 2:20:26 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1
+2023.11.08 14:20:29 INFO  no build target found for /home/ben/RV32ISC/src/main/scala/rv32isc/Top.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.08 15:04:50 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.0.
+2023.11.08 15:05:00 INFO  no build target found for /home/ben/combine/src/main/scala/rv32isc/Alu.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.08 15:05:00 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.09 02:31:06 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.0.
+2023.11.09 02:31:11 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.09 02:31:16 INFO  no build target found for /home/ben/combine/src/main/scala/rv32isc/Top.scala. Using presentation compiler with project's scala-library version: 3.3.1
+11月 09, 2023 2:38:16 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 43
+11月 09, 2023 2:42:36 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 146
+11月 09, 2023 4:28:56 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 298
+11月 09, 2023 4:41:34 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 350
+11月 09, 2023 5:30:58 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 563
+2023.11.09 21:22:22 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.0.
+2023.11.09 21:22:28 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.09 21:22:32 INFO  no build target found for /home/ben/combine/src/main/scala/rv32isc/Decoder.scala. Using presentation compiler with project's scala-library version: 3.3.1
+11月 10, 2023 12:25:13 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 13
+11月 10, 2023 12:25:49 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 37
+11月 10, 2023 12:39:19 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 159
+11月 10, 2023 12:54:06 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 175
+11月 10, 2023 1:45:37 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 231
+11月 10, 2023 3:41:25 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 298
+11月 10, 2023 4:53:58 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 300
+11月 10, 2023 4:58:58 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 386
+11月 10, 2023 5:03:20 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 408
+11月 10, 2023 6:21:30 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 417
+2023.11.10 06:49:26 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.0.
+2023.11.10 06:49:33 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+11月 10, 2023 7:13:30 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1
+2023.11.10 07:13:33 INFO  no build target found for /home/ben/combine/src/main/scala/config/Configs.scala. Using presentation compiler with project's scala-library version: 3.3.1
+11月 10, 2023 8:14:44 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 28
+11月 13, 2023 12:21:02 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 133
+11月 13, 2023 12:22:55 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 148
+11月 13, 2023 12:23:08 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 165
+11月 13, 2023 1:53:44 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 277
+11月 13, 2023 1:55:13 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 368
+11月 15, 2023 1:23:43 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 519
+11月 15, 2023 1:27:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 557
+2023.11.15 13:27:44 WARN  no build target for: /home/ben/combine/src/main/scala/rv32isc/MemInst.scala
+11月 15, 2023 1:27:45 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 571
+11月 15, 2023 1:27:49 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 578
+11月 15, 2023 1:27:51 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 586
+11月 15, 2023 1:27:55 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 594
+11月 15, 2023 1:27:56 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 600
+11月 15, 2023 1:27:59 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 612
+11月 15, 2023 1:31:04 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 670
+11月 15, 2023 1:31:11 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 672
+11月 15, 2023 1:31:12 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 675
+2023.11.15 13:36:56 WARN  no build target for: /home/ben/combine/src/main/scala/rv32isc/MemData.scala
+2023.11.15 13:37:34 WARN  no build target for: /home/ben/combine/src/main/scala/rv32isc/MemData.scala
+2023.11.15 13:38:46 WARN  no build target for: /home/ben/combine/src/main/scala/rv32isc/MemData.scala
+11月 15, 2023 1:53:43 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 896
+11月 15, 2023 2:01:30 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 965
+2023.11.15 14:03:02 WARN  no build target for: /home/ben/combine/src/main/scala/rv32isc/Top.scala
+2023.11.15 14:03:48 WARN  no build target for: /home/ben/combine/src/main/scala/rv32isc/Top.scala
+2023.11.15 14:03:55 WARN  no build target for: /home/ben/combine/src/main/scala/rv32isc/Top.scala
+11月 15, 2023 2:18:30 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1217
+11月 15, 2023 2:21:46 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1262
+11月 15, 2023 2:31:07 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1592
+2023.11.15 14:31:21 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.15 14:31:54 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.15 14:32:48 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 15, 2023 2:34:12 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1682
+11月 15, 2023 2:34:14 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1687
+2023.11.15 14:34:27 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.15 14:37:36 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.15 14:40:50 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 15, 2023 2:42:17 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1889
+2023.11.15 14:42:17 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.15 14:42:41 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.15 14:45:07 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.15 14:48:14 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.15 14:52:19 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.15 15:07:17 WARN  Using indexes to guess the definition of io
+2023.11.15 15:08:24 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.15 20:38:22 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.11.15 20:39:31 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.15 20:39:37 WARN  Using indexes to guess the definition of ans
+2023.11.15 20:39:37 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.15 20:39:50 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.15 20:39:50 WARN  Using indexes to guess the definition of Top
+2023.11.15 20:39:51 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.15 20:43:31 WARN  Using indexes to guess the definition of rs2
+2023.11.15 20:44:30 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.15 23:08:37 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.0.
+2023.11.15 23:08:45 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.15 23:08:51 INFO  no build target found for /home/ben/combine/src/main/scala/rv32isc/MemData.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.15 23:28:05 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.15 23:51:00 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 16, 2023 2:33:35 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 871
+2023.11.16 02:36:07 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 02:43:29 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 02:46:56 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 16, 2023 2:55:10 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1319
+11月 16, 2023 3:01:05 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1481
+2023.11.16 03:02:08 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:02:12 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:02:37 WARN  Using indexes to guess the definition of mem
+2023.11.16 03:04:36 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:04:48 WARN  Using indexes to guess the definition of mem
+2023.11.16 03:04:49 WARN  Using indexes to guess the definition of mem
+11月 16, 2023 3:05:09 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1758
+2023.11.16 03:05:25 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 16, 2023 3:05:30 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1794
+11月 16, 2023 3:05:34 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1808
+2023.11.16 03:05:39 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 16, 2023 3:05:46 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1837
+11月 16, 2023 3:05:50 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1848
+2023.11.16 03:05:57 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:06:44 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:09:12 ERROR Failed to tokenize input for semantic tokens for /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+scala.meta.tokenizers.TokenizeException: <input>:89: error: unclosed string literal
+                    dataLoad := dut.memData.mem.read("100)
+                                                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+11月 16, 2023 3:09:30 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2013
+2023.11.16 03:09:32 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 16, 2023 3:12:47 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2081
+2023.11.16 03:13:38 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:17:30 ERROR Failed to tokenize input for semantic tokens for /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+scala.meta.tokenizers.TokenizeException: <input>:90: error: unclosed string literal
+                    ansLoad := ansmem.read("b00.U)
+                                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.11.16 03:17:31 ERROR Failed to tokenize input for semantic tokens for /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+scala.meta.tokenizers.TokenizeException: <input>:90: error: unclosed string literal
+                    ansLoad := ansmem.read("b0.U)
+                                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.11.16 03:17:34 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:18:05 ERROR Failed to tokenize input for semantic tokens for /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+scala.meta.tokenizers.TokenizeException: <input>:90: error: unclosed string literal
+                    ansLoad := ansmem.read("b0.U)
+                                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.11.16 03:18:08 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 16, 2023 3:20:04 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2194
+11月 16, 2023 3:21:13 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2240
+11月 16, 2023 3:21:32 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2260
+11月 16, 2023 3:27:50 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2345
+2023.11.16 03:28:55 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:29:03 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 16, 2023 3:31:44 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2499
+11月 16, 2023 3:38:21 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2584
+2023.11.16 03:38:27 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:39:14 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:39:37 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:43:44 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:43:57 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:45:25 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:48:31 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:54:47 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 16, 2023 3:55:26 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 3032
+2023.11.16 03:55:52 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:57:08 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 03:57:17 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 05:43:54 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.0.
+2023.11.16 05:43:54 INFO  time: initialize in 0.18s
+2023.11.16 05:44:13 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.16 05:44:34 INFO  no build target found for /home/ben/combine/src/test/scala/rv32isc/TopTest.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.16 08:14:01 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.0.
+2023.11.16 08:14:02 INFO  time: initialize in 0.37s
+2023.11.16 08:14:37 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.16 08:18:14 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.0.
+2023.11.16 08:18:14 INFO  time: initialize in 0.13s
+2023.11.16 08:18:40 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.16 08:18:56 INFO  no build target found for /home/ben/combine/src/test/scala/rv32isc/TopTest.scala. Using presentation compiler with project's scala-library version: 3.3.1
+11月 16, 2023 8:18:59 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2
+11月 16, 2023 8:19:00 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 10
+11月 16, 2023 8:19:00 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 16
+11月 16, 2023 8:44:42 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 101
+2023.11.16 08:44:51 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 08:46:41 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 08:48:00 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 08:50:05 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 08:51:14 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 16, 2023 8:51:15 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 416
+2023.11.16 08:51:55 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 08:53:49 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 08:54:08 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 16, 2023 8:54:08 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 503
+11月 16, 2023 8:57:57 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 517
+11月 16, 2023 8:59:55 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 562
+2023.11.16 09:00:06 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 09:15:12 WARN  no build target for: /home/ben/combine/src/main/scala/rv32isc/MemData.scala
+11月 16, 2023 9:20:09 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 703
+11月 16, 2023 9:20:30 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 741
+2023.11.16 09:20:46 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 09:26:44 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 16, 2023 9:27:06 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 880
+2023.11.16 09:27:26 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 16, 2023 9:27:31 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 911
+11月 16, 2023 9:28:18 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 928
+2023.11.16 09:28:45 WARN  Using indexes to guess the definition of io
+11月 16, 2023 9:28:45 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 988
+2023.11.16 09:29:05 WARN  Using indexes to guess the definition of io
+2023.11.16 09:29:06 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 09:29:06 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 09:29:08 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 09:29:37 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 09:31:49 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 09:31:54 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.16 09:32:36 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 16, 2023 9:35:19 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1257
+11月 16, 2023 9:35:19 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1258
+11月 16, 2023 9:56:55 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1306
+11月 16, 2023 10:07:40 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1320
+2023.11.16 23:22:53 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 16, 2023 11:29:36 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1479
+2023.11.19 13:48:53 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.0.
+2023.11.19 13:48:53 INFO  time: initialize in 0.62s
+2023.11.19 13:49:24 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.19 13:58:58 INFO  Shutting down server
+2023.11.19 13:58:58 INFO  shutting down Metals
+2023.11.19 13:59:00 INFO  Exiting server
+2023.11.19 19:47:52 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.0.
+2023.11.19 19:47:53 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.19 19:54:20 INFO  no build target found for /home/ben/combine/src/test/scala/rv32isc/TopTest.scala. Using presentation compiler with project's scala-library version: 3.3.1
+11月 19, 2023 7:54:21 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 4
+11月 19, 2023 7:54:22 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 8
+11月 19, 2023 8:09:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 239
+11月 19, 2023 8:09:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 240
+2023.11.19 20:09:50 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.20 07:34:58 ERROR Failed to tokenize input for semantic tokens for /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+scala.meta.tokenizers.TokenizeException: <input>:109: error: illegal character '\u3015'
+        test(new Top). withAnnotations (Seq( VerilatorBackendAnnotation, 〕 )) { dut =>
+                                                                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:469)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:474)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.11.20 07:34:58 ERROR Failed to tokenize input for semantic tokens for /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+scala.meta.tokenizers.TokenizeException: <input>:109: error: illegal character '\u3015'
+        test(new Top). withAnnotations (Seq( VerilatorBackendAnnotation, 〕 )) { dut =>
+                                                                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:469)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:474)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.11.20 07:35:11 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 20, 2023 7:35:26 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 506
+2023.11.21 20:24:06 WARN  no build target for: /home/ben/combine/build.sbt
+2023.11.21 20:25:56 WARN  no build target for: /home/ben/combine/build.sbt
+2023.11.21 20:27:13 WARN  no build target for: /home/ben/combine/build.sbt
+11月 21, 2023 8:29:58 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 627
+2023.11.21 20:34:43 WARN  no build target for: /home/ben/combine/src/main/scala/rv32isc/MemData.scala
+2023.11.21 20:35:15 WARN  no build target for: /home/ben/combine/src/main/scala/rv32isc/MemInst.scala
+11月 21, 2023 8:35:15 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 749
+2023.11.21 21:31:53 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 21, 2023 9:33:11 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 932
+2023.11.21 21:33:25 WARN  Using indexes to guess the definition of chiselVersion
+2023.11.21 21:33:29 WARN  no build target for: /home/ben/combine/build.sbt
+2023.11.21 21:35:11 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.21 21:36:08 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 21, 2023 10:04:22 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1075
+11月 22, 2023 12:08:27 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1081
+11月 22, 2023 12:08:34 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1083
+2023.11.22 00:20:35 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.0.
+2023.11.22 00:20:42 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+11月 22, 2023 12:21:39 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1
+2023.11.22 00:21:46 INFO  no build target found for /home/ben/combine/src/test/scala/rv32isc/TopTest.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.22 08:05:41 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.2.
+2023.11.22 08:05:41 INFO  time: initialize in 0.15s
+2023.11.22 08:05:50 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.22 08:06:12 INFO  no build target found for /home/ben/combine/src/test/scala/rv32isc/TopTest.scala. Using presentation compiler with project's scala-library version: 3.3.1
+11月 22, 2023 8:13:07 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+資訊: Unsupported notification method: $/setTrace
+11月 22, 2023 10:25:07 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+資訊: Unsupported notification method: $/setTrace
+11月 22, 2023 10:25:21 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+資訊: Unsupported notification method: $/setTrace
+11月 22, 2023 11:49:59 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 12
+11月 22, 2023 11:49:59 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 11
+11月 22, 2023 11:50:10 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 13
+11月 22, 2023 11:50:32 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 15
+11月 22, 2023 11:50:33 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 27
+11月 23, 2023 10:14:50 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 57
+11月 23, 2023 10:14:50 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 60
+11月 23, 2023 10:32:52 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 63
+11月 23, 2023 10:34:48 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 71
+11月 23, 2023 10:34:48 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 75
+11月 23, 2023 10:35:33 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 98
+11月 23, 2023 10:35:33 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 101
+11月 23, 2023 10:35:35 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 104
+11月 23, 2023 10:35:35 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 108
+2023.11.23 10:35:35 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/AluTest.scala
+2023.11.23 10:35:33 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/AluTest.scala
+11月 23, 2023 10:38:57 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 145
+2023.11.23 10:39:01 WARN  no build target for: /home/ben/combine/build.sbt
+11月 23, 2023 10:43:04 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 162
+11月 23, 2023 10:43:14 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 172
+11月 23, 2023 10:54:55 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 219
+2023.11.23 11:04:04 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.2.
+2023.11.23 11:04:04 INFO  time: initialize in 0.11s
+2023.11.23 11:04:19 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.23 11:04:36 INFO  no build target found for /home/ben/combine/src/test/scala/rv32isc/AluTest.scala. Using presentation compiler with project's scala-library version: 3.3.1
+11月 23, 2023 12:04:12 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 9
+2023.11.23 12:20:47 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.2.
+2023.11.23 12:20:56 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.23 12:21:10 INFO  no build target found for /home/ben/combine/src/test/scala/rv32isc/AluTest.scala. Using presentation compiler with project's scala-library version: 3.3.1
+11月 23, 2023 12:44:18 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 8
+2023.11.23 12:49:34 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 23, 2023 12:49:34 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 106
+2023.11.23 12:56:26 WARN  no build target for: /home/ben/combine/build.sbt
+2023.11.23 15:05:23 ERROR Failed to tokenize input for semantic tokens for /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+scala.meta.tokenizers.TokenizeException: <input>:118: error: illegal character '\uff0c'
+            while (dut.io.inst.peekInt() ，= 0) {
+                                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:469)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:474)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.11.23 15:05:24 ERROR Failed to tokenize input for semantic tokens for /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+scala.meta.tokenizers.TokenizeException: <input>:118: error: illegal character '\uff0c'
+            while (dut.io.inst.peekInt() ，＼= 0) {
+                                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:469)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:474)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.11.23 15:05:57 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.23 15:11:02 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.2.
+2023.11.23 15:11:03 INFO  time: initialize in 0.6s
+2023.11.23 15:11:40 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.23 15:12:17 INFO  no build target found for /home/ben/combine/src/test/scala/rv32isc/TopTest.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.23 15:17:45 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.2.
+2023.11.23 15:17:45 INFO  time: initialize in 0.65s
+11月 23, 2023 3:18:01 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1
+2023.11.23 15:18:12 INFO  no build target found for /home/ben/combine/src/main/scala/rv32isc/MemData.scala. Using presentation compiler with project's scala-library version: 3.3.1
+11月 23, 2023 3:18:15 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 7
+2023.11.23 15:18:15 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.23 15:22:38 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 23, 2023 3:32:46 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 118
+11月 23, 2023 3:32:49 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 119
+11月 23, 2023 3:32:49 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 120
+11月 23, 2023 3:32:49 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 121
+11月 23, 2023 3:32:49 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 122
+11月 23, 2023 3:32:49 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 123
+11月 23, 2023 3:32:49 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 124
+11月 23, 2023 3:32:49 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 125
+11月 23, 2023 3:32:49 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 126
+2023.11.23 15:42:48 INFO  Started: Metals version 1.1.0 in folders '/home/ben/combine' for client Visual Studio Code 1.84.2.
+2023.11.23 15:42:48 INFO  time: initialize in 0.19s
+2023.11.23 15:42:58 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.23 15:43:20 INFO  no build target found for /home/ben/combine/src/main/scala/rv32isc/Top.scala. Using presentation compiler with project's scala-library version: 3.3.1
+11月 24, 2023 1:48:27 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 8
+11月 24, 2023 1:48:42 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 12
+11月 24, 2023 1:48:42 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 18
+11月 24, 2023 1:48:42 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 19
+11月 24, 2023 1:48:42 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 20
+11月 24, 2023 1:48:42 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 21
+11月 24, 2023 1:48:42 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 22
+11月 24, 2023 1:48:42 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 29
+11月 24, 2023 1:48:42 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 36
+11月 24, 2023 1:48:49 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 56
+11月 24, 2023 1:48:53 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 9
+11月 24, 2023 1:48:58 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 62
+11月 24, 2023 1:48:58 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 63
+11月 24, 2023 1:49:59 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 77
+11月 24, 2023 1:50:00 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 79
+11月 24, 2023 1:50:00 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 68
+11月 24, 2023 1:50:00 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 71
+11月 24, 2023 1:50:00 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 88
+11月 24, 2023 1:50:00 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 90
+11月 24, 2023 1:50:01 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 91
+11月 24, 2023 1:50:01 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 104
+11月 24, 2023 1:50:02 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 105
+11月 24, 2023 1:50:02 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 107
+11月 24, 2023 1:50:04 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 114
+11月 24, 2023 1:50:04 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 116
+11月 24, 2023 1:50:05 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 139
+11月 24, 2023 1:50:05 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 140
+11月 24, 2023 1:50:05 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 141
+11月 24, 2023 1:50:05 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 144
+11月 24, 2023 1:50:05 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 145
+11月 24, 2023 1:50:05 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 150
+2023.11.24 01:50:04 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 24, 2023 1:51:24 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 164
+11月 24, 2023 1:53:38 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 207
+11月 24, 2023 1:54:29 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 219
+11月 24, 2023 1:57:47 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 252
+2023.11.24 01:57:50 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.24 01:57:50 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 24, 2023 1:57:50 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 258
+11月 24, 2023 1:58:16 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 283
+2023.11.24 01:59:18 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 24, 2023 1:59:38 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 350
+2023.11.24 01:59:45 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.24 01:59:58 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.24 02:00:27 WARN  Using indexes to guess the definition of testFn
+11月 24, 2023 2:01:09 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 436
+2023.11.24 02:01:13 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 24, 2023 2:01:13 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 448
+2023.11.24 02:09:15 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.24 02:16:03 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.24 02:23:05 ERROR Failed to tokenize input for semantic tokens for /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+scala.meta.tokenizers.TokenizeException: <input>:28: error: Invalid literal number
+        while (dut.io.addr.peekInt() == 0xa8dut.io.inst.peekInt() != 0) {
+                                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:820)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:330)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:332)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+11月 24, 2023 2:23:45 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 620
+2023.11.24 02:24:04 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 24, 2023 2:25:05 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 671
+11月 24, 2023 2:25:06 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 680
+2023.11.24 02:25:07 ERROR Failed to tokenize input for semantic tokens for /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+scala.meta.tokenizers.TokenizeException: <input>:28: error: Invalid literal number
+        while (dut.io.addr.peekInt() == 0xa8dut.io.inst.peekInt() != 0) {
+                                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:820)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:330)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:332)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.11.24 02:25:14 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+11月 24, 2023 2:30:51 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 751
+11月 24, 2023 2:32:30 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 800
+2023.11.24 02:33:18 WARN  no build target for: /home/ben/combine/src/main/scala/rv32isc/Top.scala
+2023.11.24 02:33:34 WARN  Could not find semantic tokens for: file:///home/ben/combine/src/main/scala/utils/Ans.scala
+2023.11.24 02:33:47 WARN  no build target for: /home/ben/combine/src/main/scala/utils/Ans.scala
+11月 24, 2023 2:33:47 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 916
+11月 24, 2023 2:33:52 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 929
+11月 24, 2023 2:34:08 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 967
+2023.11.24 02:34:16 WARN  no build target for: /home/ben/combine/src/main/scala/utils/Ans.scala
+11月 24, 2023 2:34:48 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1027
+11月 24, 2023 2:35:19 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1083
+11月 24, 2023 2:35:19 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1087
+11月 24, 2023 2:35:19 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1089
+11月 24, 2023 2:35:19 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1092
+11月 24, 2023 2:35:19 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1098
+11月 24, 2023 2:35:27 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1113
+2023.11.24 02:35:33 WARN  no build target for: /home/ben/combine/src/main/scala/utils/Ans.scala
+2023.11.24 02:37:53 WARN  no build target for: /home/ben/combine/src/main/scala/utils/Ans.scala
+11月 24, 2023 2:38:30 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1290
+11月 24, 2023 2:38:30 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1293
+Exception in thread "pool-7-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.11.24 02:38:47 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.24 02:38:54 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.24 02:39:04 WARN  Using indexes to guess the definition of Top
+2023.11.24 02:39:04 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.24 02:46:34 WARN  no build target for: /home/ben/combine/src/main/scala/utils/Ans.scala
+2023.11.24 02:46:42 ERROR Failed to tokenize input for semantic tokens for /home/ben/combine/src/main/scala/utils/Ans.scala
+scala.meta.tokenizers.TokenizeException: <input>:13: error: illegal character '\u300f'
+    』
+    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:469)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:474)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.11.24 02:46:42 ERROR Failed to tokenize input for semantic tokens for /home/ben/combine/src/main/scala/utils/Ans.scala
+scala.meta.tokenizers.TokenizeException: <input>:13: error: illegal character '\u300f'
+    』ㄇ
+    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:469)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:474)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2023.11.24 02:47:54 WARN  no build target for: /home/ben/combine/src/main/scala/utils/Ans.scala
+2023.11.24 02:50:43 WARN  no build target for: /home/ben/combine/src/main/scala/utils/Ans.scala
+2023.11.24 02:52:08 WARN  no build target for: /home/ben/combine/src/main/scala/rv32isc/Top.scala
+2023.11.24 02:52:15 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.24 02:53:55 WARN  no build target for: /home/ben/combine/src/main/scala/utils/Ans.scala
+11月 24, 2023 2:54:40 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1938
+11月 24, 2023 2:55:17 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2063
+2023.11.24 02:55:19 WARN  no build target for: /home/ben/combine/src/main/scala/utils/Ans.scala
+2023.11.24 02:56:44 WARN  no build target for: /home/ben/combine/src/main/scala/rv32isc/Top.scala
+2023.11.24 02:56:49 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.24 02:57:17 WARN  no build target for: /home/ben/combine/src/main/scala/utils/Ans.scala
+2023.11.24 03:00:47 WARN  no build target for: /home/ben/combine/src/main/scala/utils/Ans.scala
+2023.11.24 03:01:02 WARN  Using indexes to guess the definition of io
+2023.11.24 03:01:02 WARN  no build target for: /home/ben/combine/src/test/scala/rv32isc/TopTest.scala
+2023.11.24 03:01:02 WARN  Using indexes to guess the definition of ans
+11月 24, 2023 5:16:11 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2573
+2023.11.25 05:48:40 INFO  Shutting down server
+2023.11.25 05:48:42 INFO  shutting down Metals

@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/ben/combine/src/test/scala/rv32isc/TopTest.scala:32:43: too many arguments (found 2, expected 1) for method println: (x: Any): Unit[0m
+[0m[[0m[31merror[0m] [0m[0m                println("ans", dut.io.ans.ans)                    [0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ben/combine/src/test/scala/rv32isc/TopTest.scala:33:58: value ans is not a member of utils.Ans[0m
+[0m[[0m[31merror[0m] [0m[0m                if (dut.io.rs2.peekInt() == dut.io.ans_o.ans)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

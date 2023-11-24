@@ -1,0 +1,19 @@
+1698891698130:test --backend-name verilator
+1698892355293:runMain
+1698899760068:test --backend-name verilator
+1698899767715:test
+1698914759853:help
+1698917374311:test -- -DwriteVcd=1
+1698917387961:test-DwriteVcd=1
+1698917393423:test -DwriteVcd=1
+1698917398465:test --DwriteVcd=1
+1698918195702:testOnly rv32isc.RegistersTest
+1698918492750:test
+1698918558561:testOnly rv32isc.MemInstTest
+1700573788301:testOnly rv32isc.TopTest
+1700706925674:testOnly rv32isc.AluTest
+1700715224291:testOnly rv32isc.TopTest
+1700762900996:testOnly rv32isc.TopTest -- -Dwrite=1
+1700763273777:testOnly rv32isc.TopTest -- -DwriteVcd=1
+1700763388291:testOnly rv32isc.TopTest
+1700764889414:testOnly rv32isc.TopTest -- -DwriteVcd=1

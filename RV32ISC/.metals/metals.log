@@ -1,0 +1,84 @@
+2023.11.02 04:51:35 INFO  Started: Metals version 1.1.0 in folders '/home/ben/RV32ISC' for client Visual Studio Code 1.83.1.
+2023.11.02 04:51:35 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.02 04:52:49 INFO  no build target found for /home/ben/RV32ISC/src/test/scala/rv32isc/AluTest.scala. Using presentation compiler with project's scala-library version: 3.3.1
+11月 02, 2023 11:45:13 上午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+資訊: Unsupported notification method: $/setTrace
+2023.11.02 14:39:37 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala
+2023.11.02 17:25:21 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala
+2023.11.02 17:25:41 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/AluTest.scala
+2023.11.02 17:26:02 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/DecoderTest.scala
+2023.11.02 17:26:17 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/MemDataTest.scala
+2023.11.02 17:26:23 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/MemInstTest.scala
+11月 02, 2023 5:26:27 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 505
+2023.11.02 17:26:28 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/PCRegTest.scala
+2023.11.02 17:26:35 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/RegistersTest.scala
+2023.11.02 17:41:53 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/RegistersTest.scala
+2023.11.02 17:46:18 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/RegistersTest.scala
+2023.11.02 17:46:42 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/RegistersTest.scala
+2023.11.02 17:46:48 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/RegistersTest.scala
+2023.11.02 17:47:07 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala
+2023.11.02 17:47:12 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/AluTest.scala
+2023.11.02 17:47:15 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/DecoderTest.scala
+2023.11.02 17:47:21 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/MemDataTest.scala
+2023.11.02 17:47:27 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/MemInstTest.scala
+2023.11.02 17:47:31 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/PCRegTest.scala
+2023.11.02 17:47:36 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/RegistersTest.scala
+2023.11.02 22:03:18 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala
+2023.11.03 00:51:29 INFO  Started: Metals version 1.1.0 in folders '/home/ben/RV32ISC' for client Visual Studio Code 1.84.0.
+2023.11.03 00:51:30 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.03 00:51:33 INFO  no build target found for /home/ben/RV32ISC/src/test/scala/rv32isc/MemInstTest.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.03 01:36:29 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/MemInstTest.scala
+2023.11.03 01:36:50 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala
+2023.11.03 01:37:22 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/AluTest.scala
+11月 03, 2023 1:37:24 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 147
+2023.11.03 01:37:31 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/DecoderTest.scala
+2023.11.03 01:37:40 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/MemDataTest.scala
+11月 03, 2023 1:37:52 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 204
+2023.11.03 01:37:58 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/PCRegTest.scala
+2023.11.03 01:38:05 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/RegistersTest.scala
+2023.11.03 01:44:52 INFO  Started: Metals version 1.1.0 in folders '/home/ben/RV32ISC' for client Visual Studio Code 1.84.0.
+2023.11.03 01:44:58 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.03 01:45:02 INFO  no build target found for /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.03 02:05:05 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala
+2023.11.03 02:06:57 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala
+2023.11.03 02:07:11 WARN  no build target for: /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala
+2023.11.07 05:18:27 INFO  Started: Metals version 1.1.0 in folders '/home/ben/RV32ISC' for client Visual Studio Code 1.84.0.
+2023.11.07 05:18:27 INFO  time: initialize in 0.21s
+2023.11.07 05:18:43 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.07 21:51:49 INFO  Started: Metals version 1.1.0 in folders '/home/ben/RV32ISC' for client Visual Studio Code 1.84.0.
+2023.11.07 21:51:55 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+11月 08, 2023 2:20:26 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1
+2023.11.08 14:20:29 INFO  no build target found for /home/ben/RV32ISC/src/main/scala/rv32isc/Top.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.08 15:04:06 INFO  Shutting down server
+2023.11.08 15:04:06 INFO  shutting down Metals
+2023.11.08 15:04:08 INFO  Exiting server
+2023.11.10 08:49:23 INFO  Started: Metals version 1.1.0 in folders '/home/ben/RV32ISC' for client Visual Studio Code 1.84.0.
+2023.11.10 08:49:26 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.10 08:49:28 INFO  no build target found for /home/ben/RV32ISC/src/test/scala/rv32isc/TopTest.scala. Using presentation compiler with project's scala-library version: 3.3.1
+11月 10, 2023 9:00:41 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 30
+11月 10, 2023 9:16:19 上午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 110
+11月 12, 2023 10:35:04 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 264
+2023.11.13 02:59:33 WARN  no build target for: /home/ben/RV32ISC/src/main/scala/rv32isc/MemData.scala
+2023.11.13 02:59:35 WARN  no build target for: /home/ben/RV32ISC/src/main/scala/rv32isc/MemData.scala
+2023.11.13 04:48:16 INFO  Shutting down server
+2023.11.13 04:48:16 INFO  shutting down Metals
+2023.11.13 04:48:17 INFO  Exiting server

@@ -1,0 +1,8 @@
+#Successful Tests
+#Fri Nov 03 02:06:30 CST 2023
+rv32isc.TopTest=1698948390281
+rv32isc.RegistersTest=1698947118764
+rv32isc.MemDataTest=1698947119331
+rv32isc.AluTest=1698947119112
+rv32isc.DecoderTest=1698947118761
+rv32isc.PCRegTest=1698947118764

@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/ben/combine/src/main/scala/utils/Ans.scala:14:12: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.Data[0m
+[0m[[0m[31merror[0m] [0m[0m    ans := read[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
