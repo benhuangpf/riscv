@@ -41,7 +41,7 @@ class MemInstTest extends AnyFlatSpec with ChiselScalatestTester with MemInstTes
     "MemInst" should "pass" in {
         // 先生成随机hex文件，再进行测试
         genMemInstHex()
-        test(new MemInst(true)) { dut =>
+        test(new MemInst(true)). withAnnotations (Seq( VerilatorBackendAnnotation )) { dut =>
             testFn(dut)
         } 
     }

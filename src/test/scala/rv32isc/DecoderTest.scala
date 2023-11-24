@@ -113,7 +113,7 @@ class DecoderTest
     with ChiselScalatestTester
     with DecoderTestFunc {
     "Decoder" should "pass" in {
-        test(new Decoder) { dut =>
+        test(new Decoder). withAnnotations (Seq( VerilatorBackendAnnotation )) { dut =>
             testFn(dut)
         }
     }

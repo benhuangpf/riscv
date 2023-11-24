@@ -1,0 +1,36 @@
+[
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"Top.MemData.mem",
+    "fileName":"src/test/scala/rv32isc/MemData.hex",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"mem"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"Top.MemInst.mem",
+    "fileName":"src/test/scala/rv32isc/MemInst.hex",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"mem"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"generated"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxInlineAnno",
+    "target":"Top.MemInst",
+    "name":"Top.MemInst.mem.v",
+    "text":"module BindsTo_0_MemInst(\n  input         clock,\n  input  [31:0] io_addr,\n  output [31:0] io_inst\n);\n\ninitial begin\n  $readmemh(\"src/test/scala/rv32isc/MemInst.hex\", MemInst.mem);\nend\n                      endmodule\n\nbind MemInst BindsTo_0_MemInst BindsTo_0_MemInst_Inst(.*);"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxInlineAnno",
+    "target":"Top.MemData",
+    "name":"Top.MemData.mem.v",
+    "text":"module BindsTo_1_MemData(\n  input         clock,\n  input         io_bundleMemDataControl_ctrlLoad,\n  input         io_bundleMemDataControl_ctrlStore,\n  input         io_bundleMemDataControl_ctrlSigned,\n  input  [1:0]  io_bundleMemDataControl_ctrlLSType,\n  input  [31:0] io_resultALU,\n  input  [31:0] io_dataStore,\n  output [31:0] io_result\n);\n\ninitial begin\n  $readmemh(\"src/test/scala/rv32isc/MemData.hex\", MemData.mem);\nend\n                      endmodule\n\nbind MemData BindsTo_1_MemData BindsTo_1_MemData_Inst(.*);"
+  }
+]

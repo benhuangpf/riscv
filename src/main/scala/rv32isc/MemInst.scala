@@ -5,7 +5,7 @@ import chisel3.util._
 import chisel3.util.experimental.loadMemoryFromFile
 
 import config.Configs._
-import firrtl.annotations.MemoryLoadFileType
+// import firrtl.annotations.MemoryLoadFileType
 
 class MemInstIO extends Bundle {
     val addr = Input(UInt(ADDR_WIDTH.W)) // 指令地址
@@ -21,14 +21,12 @@ class MemInst(memTest: Boolean = false) extends Module {
     if (memTest) {
         loadMemoryFromFile(
             mem,
-            "src/test/scala/rv32isc/randMemInst.hex",
-            MemoryLoadFileType.Hex
+            "src/test/scala/rv32isc/randMemInst.hex"
         )
     } else {
         loadMemoryFromFile(
             mem,
-            "src/test/scala/rv32isc/MemInst.hex",
-            MemoryLoadFileType.Hex
+            "src/test/scala/rv32isc/MemInst.hex"
         )
     }
     io.inst := mem.read(io.addr >> INST_BYTE_WIDTH_LOG.U) // 读取对应位置的指令并输出

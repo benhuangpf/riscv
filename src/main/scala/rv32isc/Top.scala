@@ -8,6 +8,7 @@ import utils._
 
 // Top的模块接口，用于测试
 class TopIO extends Bundle {
+    val ans = new Ans()
     val addr = Output(UInt(ADDR_WIDTH.W))
     val inst = Output(UInt(INST_WIDTH.W))
     val bundleCtrl = new BundleControl()
@@ -77,5 +78,6 @@ class Top extends Module {
 }
 
 object main extends App {
-    println(getVerilogString(new Top()))
+    // println(getVerilogString(new Top()))
+    emitVerilog(new Top(), Array("--target-dir", "generated"))
 }

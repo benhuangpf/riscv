@@ -110,7 +110,7 @@ class MemDataTest
     with ChiselScalatestTester
     with MemDataTestFunc {
     "MemData" should "pass" in {
-        test(new MemData) { dut =>
+        test(new MemData). withAnnotations (Seq( VerilatorBackendAnnotation )) { dut =>
             testFn(dut)
         }
     }

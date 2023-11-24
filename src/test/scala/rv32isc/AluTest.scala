@@ -113,7 +113,7 @@ trait AluTestFunc {
 
 class AluTest extends AnyFlatSpec with ChiselScalatestTester with AluTestFunc {
     "ALU" should "pass" in {
-        test(new Alu) { dut =>
+        test(new Alu). withAnnotations (Seq( VerilatorBackendAnnotation, WriteVcdAnnotation )) { dut =>
             testFn(dut)
         }
     }

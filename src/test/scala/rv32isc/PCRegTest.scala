@@ -64,7 +64,7 @@ trait PCRegTestFunc {
 
 class PCRegTest extends AnyFlatSpec with ChiselScalatestTester with PCRegTestFunc {
     "PCReg" should "pass" in {
-        test(new PCReg) { dut =>
+        test(new PCReg). withAnnotations (Seq( VerilatorBackendAnnotation )) { dut =>
             testFn(dut)
         } 
     }

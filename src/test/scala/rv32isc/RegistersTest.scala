@@ -70,7 +70,7 @@ trait RegistersTestFunc {
 
 class RegistersTest extends AnyFlatSpec with ChiselScalatestTester with RegistersTestFunc {
     "Registers" should "pass" in {
-        test(new Registers) { dut =>
+        test(new Registers). withAnnotations (Seq( VerilatorBackendAnnotation )) { dut =>
             testRegs(dut)
         }
     }
