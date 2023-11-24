@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly examples.AluTest, Some(880164ae-d7d9-4ec9-91ec-8ebbb21827d2), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ben/mytest_a/target/scala-2.13/test-classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m'genBundleElements' is now default behavior, you can remove the scalacOption.[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAluTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mALU[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should wave[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 15 seconds, 805 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 35 s, completed 2023年11月24日 上午3:49:31[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

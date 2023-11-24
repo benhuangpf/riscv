@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly examples.FullAdderTest, Some(42e7b5f0-c98e-4b9b-a5d7-f3f474c37ca1), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ben/mytest_a/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m'genBundleElements' is now default behavior, you can remove the scalacOption.[0m

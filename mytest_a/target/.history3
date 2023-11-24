@@ -1,0 +1,13 @@
+1698928148712:test
+1698932557311:test -- -Dwrite=1
+1698932581395:testOnly FullAdderTest -- -Dwrite=1
+1698932681796:testOnly examples.FullAdderTest -- -Dwrite=1
+1700583685532:test
+1700583754665:exit
+1700708378847:testOnly examples.AluTest
+1700712912918:testOnly examples.AdderTest
+1700712934814:testOnly examples.FullAdderTest
+1700713775205:testOnly examples.AluTest
+1700756433997:testOnly examples.AluTest -- -DwriteVcd=1
+1700768935750:testOnly examples.AluTest
+1700769144999:testOnly examples.AluTest -- -DwriteVcd=1
