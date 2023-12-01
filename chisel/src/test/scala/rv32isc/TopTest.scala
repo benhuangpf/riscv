@@ -45,11 +45,11 @@ class TopTest extends AnyFlatSpec with ChiselScalatestTester with TopTestFunc {
             testFn(dut)
         }
     }
-    // "Top" should "wave" in {
-    //     test(new Top). withAnnotations (Seq( VerilatorBackendAnnotation, WriteVcdAnnotation )) { dut =>
-    //         testFn(dut)
-    //     }
-    // }
+    "Top" should "wave" in {
+        test(new Top). withAnnotations (Seq( VerilatorBackendAnnotation, WriteVcdAnnotation )) { dut =>
+            testFn(dut)
+        }
+    }
 }
 
 
