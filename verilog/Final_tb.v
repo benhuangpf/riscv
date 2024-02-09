@@ -3,11 +3,11 @@
 `timescale 1 ns/10 ps
 
 `define CYCLE 10       // Do not change this value!!!
-`define END_CYCLE 2800 // You can modify your maximum cycles
+`define END_CYCLE 28000 // You can modify your maximum cycles
 
 `include "CHIP.v"
 `include "memory.v"
-`define SIZE_TEXT 1024  // You can change the size
+`define SIZE_TEXT 2048  // You can change the size
 `define SIZE_DATA 1024  // You can change the size
 `define SIZE_STACK 1024 // You can change the size
 
@@ -161,7 +161,7 @@ module Final_tb;
     end
 
     always @(negedge clk) begin
-        if (mem_addr_I == 32'h000000a8) begin
+        if (mem_addr_I == 32'h000010E4) begin
             // error_num = 0;
             $display("  Correct ans: %d  Your ans: %d", mem_data_ans[1], chip0.reg0.mem[10]);
             if (chip0.reg0.mem[10] == mem_data_ans[1]) begin
@@ -169,6 +169,7 @@ module Final_tb;
                 $display("Success!");
                 $display("The test result is .....PASS :)\n");
                 $display("============================================================\n");
+                $finish;
             end
             else begin
                 $display(" ");

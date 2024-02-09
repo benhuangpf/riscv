@@ -1,0 +1,73 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Thu Feb  8 07:47:55 2024
+[*]
+[dumpfile] "/home/ben/RISCV/chipyard/modified-sodor/Final.vcd"
+[dumpfile_mtime] "Wed Feb  7 00:28:46 2024"
+[dumpfile_size] 14866
+[savefile] "/home/ben/RISCV/chipyard/modified-sodor/wave.gtkw"
+[timestart] 203700
+[size] 1920 860
+[pos] -1 -1
+*-14.000000 233680 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TestDriver.
+[treeopen] TestDriver.chip0.
+[treeopen] TestDriver.chip0.core.
+[sst_width] 388
+[signals_width] 478
+[sst_expanded] 1
+[sst_vpaned_height] 192
+@28
+TestDriver.chip0.core.clock[0]
+TestDriver.chip0.core.reset[0]
+@22
+TestDriver.chip0.core.d.pc_reg[31:0]
+TestDriver.chip0.core.d._GEN_4[255:0]
+@28
+TestDriver.chip0.core.d.io_ctl_pc_sel[2:0]
+TestDriver.chip0.core.c._io_ctl_exception_output[0]
+TestDriver.chip0.core.c.illegal[0]
+TestDriver.chip0.core.c.io_dat_inst_misaligned[0]
+TestDriver.chip0.core.c.data_misaligned[0]
+TestDriver.chip0.core.c.io_dat_csr_eret[0]
+TestDriver.chip0.core.c.io_dat_csr_interrupt[0]
+@22
+TestDriver.chip0.core.io_imem_req_bits_addr[31:0]
+@28
+TestDriver.chip0.core.io_imem_req_valid[0]
+@22
+TestDriver.chip0.core.io_imem_resp_bits_data[31:0]
+@28
+TestDriver.chip0.core.io_imem_resp_valid[0]
+TestDriver.chip0.core._c_io_ctl_pc_sel[2:0]
+@22
+TestDriver.chip0.core.io_dmem_req_bits_addr[31:0]
+TestDriver.chip0.core.io_dmem_req_bits_data[31:0]
+@28
+TestDriver.chip0.core.io_dmem_req_bits_fcn[0]
+TestDriver.chip0.core.io_dmem_req_bits_typ[2:0]
+TestDriver.chip0.core.io_dmem_req_valid[0]
+TestDriver.chip0.core.io_dmem_resp_valid[0]
+@22
+TestDriver.chip0.core.io_dmem_resp_bits_data[31:0]
+@28
+TestDriver.chip0.core.io_hartid[0]
+@22
+TestDriver.chip0.core.io_imem_req_bits_addr[31:0]
+@28
+TestDriver.chip0.core.io_imem_req_valid[0]
+@23
+TestDriver.chip0.core.io_imem_resp_bits_data[31:0]
+@28
+TestDriver.chip0.core.io_imem_resp_valid[0]
+@22
+TestDriver.chip0.core.io_dmem_req_bits_addr[31:0]
+TestDriver.chip0.core.io_dmem_req_bits_data[31:0]
+@28
+TestDriver.chip0.core.io_dmem_req_valid[0]
+@22
+TestDriver.chip0.core.io_dmem_resp_bits_data[31:0]
+@28
+TestDriver.chip0.core.io_dmem_resp_valid[0]
+[pattern_trace] 1
+[pattern_trace] 0

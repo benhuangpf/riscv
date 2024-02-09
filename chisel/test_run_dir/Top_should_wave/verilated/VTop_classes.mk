@@ -7,12 +7,12 @@
 ### Switches...
 # C11 constructs required?  0/1 (always on now)
 VM_C11 = 1
-# Timing enabled?  0/1
-VM_TIMING = 0
 # Coverage output mode?  0/1 (from --coverage)
 VM_COVERAGE = 1
 # Parallel builds?  0/1 (from --output-split)
 VM_PARALLEL_BUILDS = 0
+# Threaded output mode?  0/1/N threads (from --threads)
+VM_THREADS = 0
 # Tracing output mode?  0/1 (from --trace/--trace-fst)
 VM_TRACE = 1
 # Tracing output mode in VCD format?  0/1 (from --trace)
@@ -24,13 +24,12 @@ VM_TRACE_FST = 0
 # Generated module classes, fast-path, compile with highest optimization
 VM_CLASSES_FAST += \
 	VTop \
-	VTop___024root__DepSet_hc590b6dd__0 \
 	VTop___024root__DepSet_h0d2e5939__0 \
 
 # Generated module classes, non-fast-path, compile with low/medium optimization
 VM_CLASSES_SLOW += \
+	VTop__ConstPool_0 \
 	VTop___024root__Slow \
-	VTop___024root__DepSet_hc590b6dd__0__Slow \
 	VTop___024root__DepSet_h0d2e5939__0__Slow \
 
 # Generated support classes, fast-path, compile with highest optimization
@@ -47,7 +46,6 @@ VM_GLOBAL_FAST += \
 	verilated \
 	verilated_cov \
 	verilated_vcd_c \
-	verilated_threads \
 
 # Global classes, need linked once per executable, non-fast-path, compile with low/medium optimization
 VM_GLOBAL_SLOW += \

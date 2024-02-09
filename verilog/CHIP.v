@@ -469,7 +469,7 @@ module CHIP(clk,
 
     always @(posedge clk or negedge rst_n) begin
         if (!rst_n) begin
-            PC <= 32'h00000084; // Do not modify this value!!!
+            PC <= 32'h000010c4; // Do not modify this value!!!
         end
 
         else begin

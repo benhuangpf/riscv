@@ -28,7 +28,7 @@ static const bool verbose = false;
 static bool encounteredFinish = false;
 void vl_finish(const char* filename, int linenum, const char* hier) {
   // std::cout << "finish! (" << filename << ", " << linenum << ", " << hier << ")" << std::endl;
-  Verilated::flushCall();
+  Verilated::runFlushCallbacks();
   encounteredFinish = true;
 }
 
@@ -36,7 +36,7 @@ void vl_finish(const char* filename, int linenum, const char* hier) {
 static bool encounteredFatal = false;
 void vl_fatal(const char* filename, int linenum, const char* hier, const char* msg) {
   std::cerr << "fatal! (" << filename << ", " << linenum << ", " << hier << ", " << msg << ")" << std::endl;
-  Verilated::flushCall();
+  Verilated::runFlushCallbacks();
   encounteredFatal = true;
 }
 
@@ -44,15 +44,19 @@ void vl_fatal(const char* filename, int linenum, const char* hier, const char* m
 static bool encounteredStop = false;
 void vl_stop(const char* filename, int linenum, const char* hier) {
   // std::cout << "stop! (" << filename << ", " << linenum << ", " << hier << ")" << std::endl;
-  Verilated::flushCall();
+  Verilated::runFlushCallbacks();
   encounteredStop = true;
 }
 
 
-// required for asserts (until Verilator 4.200)
-double sc_time_stamp () { return 0; }
+// Global because older versions of verilator do not support contexts
+static vluint64_t global_time = 0;
+double sc_time_stamp () { return global_time; }
 
 static void _startCoverageAndDump(VERILATED_C** tfp, const std::string& dumpfile, TOP_CLASS* top) {
+#if VM_COVERAGE
+    Verilated::defaultContextp()->coveragep()->forcePerInstance(true);
+#endif
 
 #if VM_TRACE || VM_COVERAGE
     Verilated::traceEverOn(true);
@@ -67,12 +71,14 @@ static void _startCoverageAndDump(VERILATED_C** tfp, const std::string& dumpfile
 
 static int64_t _step(VERILATED_C* tfp, TOP_CLASS* top, vluint64_t& main_time) {
     top->clock = 0;
+    global_time = main_time;
     top->eval();
 #if VM_TRACE
     if (tfp) tfp->dump(main_time);
 #endif
     main_time++;
     top->clock = 1;
+    global_time = main_time;
     top->eval();
 #if VM_TRACE
     if (tfp) tfp->dump(main_time);
@@ -100,7 +106,7 @@ static void _finish(VERILATED_C* tfp, TOP_CLASS* top) {
   delete tfp;
 #endif
 #if VM_COVERAGE
-  VerilatedCov::write("/home/ben/combine/test_run_dir/Top_should_wave/coverage.dat");
+  VerilatedCov::write(R"(/home/ben/RISCV/chisel/test_run_dir/Top_should_wave/coverage.dat)");
 #endif
   top->final();
   // TODO: re-enable!
@@ -155,24 +161,25 @@ struct sim_state {
     uint64_t value = 0;
     switch(id) {
       case 0 : value = dut->reset; break;
-      case 1 : value = dut->io_addr; break;
-      case 2 : value = dut->io_inst; break;
-      case 3 : value = dut->io_bundleCtrl_ctrlJump; break;
-      case 4 : value = dut->io_bundleCtrl_ctrlBranch; break;
-      case 5 : value = dut->io_bundleCtrl_ctrlRegWrite; break;
-      case 6 : value = dut->io_bundleCtrl_ctrlLoad; break;
-      case 7 : value = dut->io_bundleCtrl_ctrlStore; break;
-      case 8 : value = dut->io_bundleCtrl_ctrlALUSrc; break;
-      case 9 : value = dut->io_bundleCtrl_ctrlJAL; break;
-      case 10 : value = dut->io_bundleCtrl_ctrlOP; break;
-      case 11 : value = dut->io_bundleCtrl_ctrlSigned; break;
-      case 12 : value = dut->io_bundleCtrl_ctrlLSType; break;
-      case 13 : value = dut->io_resultALU; break;
-      case 14 : value = dut->io_rs1; break;
-      case 15 : value = dut->io_rs2; break;
-      case 16 : value = dut->io_imm; break;
-      case 17 : value = dut->io_resultBranch; break;
-      case 18 : value = dut->io_result; break;
+      case 1 : value = dut->io_ans; break;
+      case 2 : value = dut->io_addr; break;
+      case 3 : value = dut->io_inst; break;
+      case 4 : value = dut->io_bundleCtrl_ctrlJump; break;
+      case 5 : value = dut->io_bundleCtrl_ctrlBranch; break;
+      case 6 : value = dut->io_bundleCtrl_ctrlRegWrite; break;
+      case 7 : value = dut->io_bundleCtrl_ctrlLoad; break;
+      case 8 : value = dut->io_bundleCtrl_ctrlStore; break;
+      case 9 : value = dut->io_bundleCtrl_ctrlALUSrc; break;
+      case 10 : value = dut->io_bundleCtrl_ctrlJAL; break;
+      case 11 : value = dut->io_bundleCtrl_ctrlOP; break;
+      case 12 : value = dut->io_bundleCtrl_ctrlSigned; break;
+      case 13 : value = dut->io_bundleCtrl_ctrlLSType; break;
+      case 14 : value = dut->io_resultALU; break;
+      case 15 : value = dut->io_rs1; break;
+      case 16 : value = dut->io_rs2; break;
+      case 17 : value = dut->io_imm; break;
+      case 18 : value = dut->io_resultBranch; break;
+      case 19 : value = dut->io_result; break;
 
     default:
       std::cerr << "Cannot find the object of id = " << id << std::endl;
@@ -235,12 +242,16 @@ struct sim_state {
 
 static sim_state* create_sim_state() {
   sim_state *s = new sim_state();
-  std::string dumpfile = "/home/ben/combine/test_run_dir/Top_should_wave/Top.vcd";
+  std::string dumpfile = R"(/home/ben/RISCV/chisel/test_run_dir/Top_should_wave/Top.vcd)";
   _startCoverageAndDump(&s->tfp, dumpfile, s->dut);
   return s;
 }
 // we only export the symbols that we prefixed with a unique id
+#if defined _WIN32 || defined __CYGWIN__ || defined __MINGW32__ || defined __MINGW64__
+#define _EXPORT __declspec(dllexport)
+#else
 #define _EXPORT __attribute__((visibility("default")))
+#endif
 extern "C" {
 
 _EXPORT void* sim_init() {

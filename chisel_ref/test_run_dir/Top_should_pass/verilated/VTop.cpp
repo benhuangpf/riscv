@@ -1,9 +1,7 @@
 // Verilated -*- C++ -*-
 // DESCRIPTION: Verilator output: Model implementation (design independent parts)
 
-#include "VTop.h"
-#include "VTop__Syms.h"
-#include "verilated_vcd_c.h"
+#include "VTop__pch.h"
 
 //============================================================
 // Constructors
@@ -50,27 +48,15 @@ VTop::~VTop() {
 }
 
 //============================================================
-// Evaluation loop
+// Evaluation function
 
-void VTop___024root___eval_initial(VTop___024root* vlSelf);
-void VTop___024root___eval_settle(VTop___024root* vlSelf);
-void VTop___024root___eval(VTop___024root* vlSelf);
 #ifdef VL_DEBUG
 void VTop___024root___eval_debug_assertions(VTop___024root* vlSelf);
 #endif  // VL_DEBUG
-void VTop___024root___final(VTop___024root* vlSelf);
-
-static void _eval_initial_loop(VTop__Syms* __restrict vlSymsp) {
-    vlSymsp->__Vm_didInit = true;
-    VTop___024root___eval_initial(&(vlSymsp->TOP));
-    // Evaluate till stable
-    vlSymsp->__Vm_activity = true;
-    do {
-        VL_DEBUG_IF(VL_DBG_MSGF("+ Initial loop\n"););
-        VTop___024root___eval_settle(&(vlSymsp->TOP));
-        VTop___024root___eval(&(vlSymsp->TOP));
-    } while (0);
-}
+void VTop___024root___eval_static(VTop___024root* vlSelf);
+void VTop___024root___eval_initial(VTop___024root* vlSelf);
+void VTop___024root___eval_settle(VTop___024root* vlSelf);
+void VTop___024root___eval(VTop___024root* vlSelf);
 
 void VTop::eval_step() {
     VL_DEBUG_IF(VL_DBG_MSGF("+++++TOP Evaluate VTop::eval_step\n"); );
@@ -78,15 +64,27 @@ void VTop::eval_step() {
     // Debug assertions
     VTop___024root___eval_debug_assertions(&(vlSymsp->TOP));
 #endif  // VL_DEBUG
-    // Initialize
-    if (VL_UNLIKELY(!vlSymsp->__Vm_didInit)) _eval_initial_loop(vlSymsp);
-    // Evaluate till stable
-    vlSymsp->__Vm_activity = true;
-    do {
-        VL_DEBUG_IF(VL_DBG_MSGF("+ Clock loop\n"););
-        VTop___024root___eval(&(vlSymsp->TOP));
-    } while (0);
+    vlSymsp->__Vm_deleter.deleteAll();
+    if (VL_UNLIKELY(!vlSymsp->__Vm_didInit)) {
+        vlSymsp->__Vm_didInit = true;
+        VL_DEBUG_IF(VL_DBG_MSGF("+ Initial\n"););
+        VTop___024root___eval_static(&(vlSymsp->TOP));
+        VTop___024root___eval_initial(&(vlSymsp->TOP));
+        VTop___024root___eval_settle(&(vlSymsp->TOP));
+    }
+    VL_DEBUG_IF(VL_DBG_MSGF("+ Eval\n"););
+    VTop___024root___eval(&(vlSymsp->TOP));
     // Evaluate cleanup
+    Verilated::endOfEval(vlSymsp->__Vm_evalMsgQp);
+}
+
+//============================================================
+// Events and timing
+bool VTop::eventsPending() { return false; }
+
+uint64_t VTop::nextTimeSlot() {
+    VL_FATAL_MT(__FILE__, __LINE__, "", "%Error: No delays in the design");
+    return 0;
 }
 
 //============================================================
@@ -99,8 +97,10 @@ const char* VTop::name() const {
 //============================================================
 // Invoke final blocks
 
+void VTop___024root___eval_final(VTop___024root* vlSelf);
+
 VL_ATTR_COLD void VTop::final() {
-    VTop___024root___final(&(vlSymsp->TOP));
+    VTop___024root___eval_final(&(vlSymsp->TOP));
 }
 
 //============================================================
@@ -109,36 +109,14 @@ VL_ATTR_COLD void VTop::final() {
 const char* VTop::hierName() const { return vlSymsp->name(); }
 const char* VTop::modelName() const { return "VTop"; }
 unsigned VTop::threads() const { return 1; }
-std::unique_ptr<VerilatedTraceConfig> VTop::traceConfig() const {
-    return std::unique_ptr<VerilatedTraceConfig>{new VerilatedTraceConfig{false, false, false}};
-};
+void VTop::prepareClone() const { contextp()->prepareClone(); }
+void VTop::atClone() const {
+    contextp()->threadPoolpOnClone();
+}
 
 //============================================================
 // Trace configuration
 
-void VTop___024root__trace_init_top(VTop___024root* vlSelf, VerilatedVcd* tracep);
-
-VL_ATTR_COLD static void trace_init(void* voidSelf, VerilatedVcd* tracep, uint32_t code) {
-    // Callback from tracep->open()
-    VTop___024root* const __restrict vlSelf VL_ATTR_UNUSED = static_cast<VTop___024root*>(voidSelf);
-    VTop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    if (!vlSymsp->_vm_contextp__->calcUnusedSigs()) {
-        VL_FATAL_MT(__FILE__, __LINE__, __FILE__,
-            "Turning on wave traces requires Verilated::traceEverOn(true) call before time 0.");
-    }
-    vlSymsp->__Vm_baseCode = code;
-    tracep->scopeEscape(' ');
-    tracep->pushNamePrefix(std::string{vlSymsp->name()} + ' ');
-    VTop___024root__trace_init_top(vlSelf, tracep);
-    tracep->popNamePrefix();
-    tracep->scopeEscape('.');
-}
-
-VL_ATTR_COLD void VTop___024root__trace_register(VTop___024root* vlSelf, VerilatedVcd* tracep);
-
 VL_ATTR_COLD void VTop::trace(VerilatedVcdC* tfp, int levels, int options) {
-    if (false && levels && options) {}  // Prevent unused
-    tfp->spTrace()->addModel(this);
-    tfp->spTrace()->addInitCb(&trace_init, &(vlSymsp->TOP));
-    VTop___024root__trace_register(&(vlSymsp->TOP), tfp->spTrace());
+    vl_fatal(__FILE__, __LINE__, __FILE__,"'VTop::trace()' called on model that was Verilated without --trace option");
 }

@@ -1,4 +1,4 @@
-[0m[[0m[0mdebug[0m] [0m[0m[mytest_a-build] Classpath dependencies List()[0m
-[0m[[0m[0mdebug[0m] [0m[0m[mytest_a-build] Dependencies from configurations List()[0m
-[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'mytest_a-build' to '/home/ben/mytest_a/project/.bloop/mytest_a-build.json'[0m
-[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/mytest_a-build.json[0m
+[0m[[0m[0mdebug[0m] [0m[0m[env_test-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[env_test-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'env_test-build' to '/home/ben/RISCV/env_test/project/.bloop/env_test-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/env_test-build.json[0m

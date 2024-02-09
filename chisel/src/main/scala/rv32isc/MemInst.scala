@@ -2,7 +2,7 @@ package rv32isc
 
 import chisel3._
 import chisel3.util._
-import chisel3.util.experimental.loadMemoryFromFile
+import chisel3.util.experimental.loadMemoryFromFileInline
 
 import config.Configs._
 // import firrtl.annotations.MemoryLoadFileType
@@ -19,15 +19,12 @@ class MemInst(memTest: Boolean = false) extends Module {
     val mem = Mem(MEM_INST_SIZE, UInt(INST_WIDTH.W))
 
     if (memTest) {
-        loadMemoryFromFile(
+        loadMemoryFromFileInline(
             mem,
             "src/test/scala/rv32isc/randMemInst.hex"
         )
     } else {
-        loadMemoryFromFile(
-            mem,
-            "src/test/scala/rv32isc/MemInst.hex"
-        )
+        loadMemoryFromFileInline(mem, "src/test/scala/rv32isc/MemInst.hex")
     }
     io.inst := mem.read(io.addr >> INST_BYTE_WIDTH_LOG.U) // 读取对应位置的指令并输出
 }

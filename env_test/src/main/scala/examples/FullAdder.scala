@@ -5,6 +5,8 @@ import chisel3._
 import scala.io.Source
 import utils._
 
+import chisel3.util.experimental.loadMemoryFromFileInline
+
 class AdderIO extends Bundle {
   val bundleAluControl = new BundleAluControl()
     val a    = Input(UInt(1.W))
@@ -24,7 +26,14 @@ class FullAdder extends Module {
   //   val cout = Output(UInt(1.W))
   // })
 
-  val ans = Source.fromFile("src/test/scala/examples/ans.txt").getLines().toArray
+  // val ans = Source.fromFile("src/test/scala/examples/ans.txt").getLines().toArray
+  val mem = Mem(1024, UInt(32.W))
+  loadMemoryFromFileInline(
+            mem,
+            "src/test/scala/examples/MemInst.hex"
+        )
+  
+  
   // Generate the sum
   val a_xor_b = io.a ^ io.b
   io.sum := a_xor_b ^ io.cin

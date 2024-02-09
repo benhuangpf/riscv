@@ -1,0 +1,85 @@
+[
+  {
+    "module_name": "cc_dir_ext",
+    "depth": 1024,
+    "width": 128,
+    "masked": true,
+    "read": false,
+    "write": false,
+    "readwrite": true,
+    "mask_granularity": 16,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.subsystem_l2_wrapper.l2.inclusive_cache_bank_sched.directory.cc_dir.cc_dir_ext"
+    ]
+  },
+  {
+    "module_name": "cc_banks_0_ext",
+    "depth": 32768,
+    "width": 32,
+    "masked": false,
+    "read": false,
+    "write": false,
+    "readwrite": true,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.subsystem_l2_wrapper.l2.inclusive_cache_bank_sched.bankedStore.cc_banks_3.cc_banks_0_ext",
+      "ChipTop.system.subsystem_l2_wrapper.l2.inclusive_cache_bank_sched.bankedStore.cc_banks_2.cc_banks_0_ext",
+      "ChipTop.system.subsystem_l2_wrapper.l2.inclusive_cache_bank_sched.bankedStore.cc_banks_1.cc_banks_0_ext",
+      "ChipTop.system.subsystem_l2_wrapper.l2.inclusive_cache_bank_sched.bankedStore.cc_banks_0.cc_banks_0_ext"
+    ]
+  },
+  {
+    "module_name": "data_arrays_0_ext",
+    "depth": 1024,
+    "width": 32,
+    "masked": true,
+    "read": false,
+    "write": false,
+    "readwrite": true,
+    "mask_granularity": 8,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.dcache.data.data_arrays_0.data_arrays_0_ext"
+    ]
+  },
+  {
+    "module_name": "tag_array_0_ext",
+    "depth": 64,
+    "width": 22,
+    "masked": false,
+    "read": false,
+    "write": false,
+    "readwrite": true,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.dcache.tag_array_0.tag_array_0_ext"
+    ]
+  },
+  {
+    "module_name": "tag_array_0_0_ext",
+    "depth": 64,
+    "width": 21,
+    "masked": false,
+    "read": false,
+    "write": false,
+    "readwrite": true,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.frontend.icache.tag_array_0.tag_array_0_0_ext"
+    ]
+  },
+  {
+    "module_name": "data_arrays_0_0_ext",
+    "depth": 1024,
+    "width": 32,
+    "masked": false,
+    "read": false,
+    "write": false,
+    "readwrite": true,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.tile_prci_domain.tile_reset_domain_tile.frontend.icache.data_arrays_0_0.data_arrays_0_0_ext"
+    ]
+  }
+]

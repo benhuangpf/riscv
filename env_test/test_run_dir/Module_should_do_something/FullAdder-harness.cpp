@@ -103,7 +103,7 @@ static void _finish(VERILATED_C* tfp, TOP_CLASS* top) {
   delete tfp;
 #endif
 #if VM_COVERAGE
-  VerilatedCov::write(R"(/home/ben/mytest_a/test_run_dir/Module_should_do_something/coverage.dat)");
+  VerilatedCov::write(R"(/home/ben/RISCV/env_test/test_run_dir/Module_should_do_something/coverage.dat)");
 #endif
   top->final();
   // TODO: re-enable!
@@ -238,7 +238,7 @@ struct sim_state {
 
 static sim_state* create_sim_state() {
   sim_state *s = new sim_state();
-  std::string dumpfile = R"(/home/ben/mytest_a/test_run_dir/Module_should_do_something/FullAdder.vcd)";
+  std::string dumpfile = R"(/home/ben/RISCV/env_test/test_run_dir/Module_should_do_something/FullAdder.vcd)";
   _startCoverageAndDump(&s->tfp, dumpfile, s->dut);
   return s;
 }

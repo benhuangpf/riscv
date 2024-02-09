@@ -11,3 +11,6 @@
 1700756433997:testOnly examples.AluTest -- -DwriteVcd=1
 1700768935750:testOnly examples.AluTest
 1700769144999:testOnly examples.AluTest -- -DwriteVcd=1
+1701882782908:testOnly examples.FullAluTest
+1701882937185:testOnly examples.FullAdderTest
+1701886901480:exit

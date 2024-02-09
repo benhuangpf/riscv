@@ -28,7 +28,7 @@ static const bool verbose = false;
 static bool encounteredFinish = false;
 void vl_finish(const char* filename, int linenum, const char* hier) {
   // std::cout << "finish! (" << filename << ", " << linenum << ", " << hier << ")" << std::endl;
-  Verilated::runFlushCallbacks();
+  Verilated::flushCall();
   encounteredFinish = true;
 }
 
@@ -36,7 +36,7 @@ void vl_finish(const char* filename, int linenum, const char* hier) {
 static bool encounteredFatal = false;
 void vl_fatal(const char* filename, int linenum, const char* hier, const char* msg) {
   std::cerr << "fatal! (" << filename << ", " << linenum << ", " << hier << ", " << msg << ")" << std::endl;
-  Verilated::runFlushCallbacks();
+  Verilated::flushCall();
   encounteredFatal = true;
 }
 
@@ -44,7 +44,7 @@ void vl_fatal(const char* filename, int linenum, const char* hier, const char* m
 static bool encounteredStop = false;
 void vl_stop(const char* filename, int linenum, const char* hier) {
   // std::cout << "stop! (" << filename << ", " << linenum << ", " << hier << ")" << std::endl;
-  Verilated::runFlushCallbacks();
+  Verilated::flushCall();
   encounteredStop = true;
 }
 
@@ -53,9 +53,6 @@ void vl_stop(const char* filename, int linenum, const char* hier) {
 double sc_time_stamp () { return 0; }
 
 static void _startCoverageAndDump(VERILATED_C** tfp, const std::string& dumpfile, TOP_CLASS* top) {
-#if VM_COVERAGE
-    Verilated::defaultContextp()->coveragep()->forcePerInstance(true);
-#endif
 
 #if VM_TRACE || VM_COVERAGE
     Verilated::traceEverOn(true);
@@ -103,7 +100,7 @@ static void _finish(VERILATED_C* tfp, TOP_CLASS* top) {
   delete tfp;
 #endif
 #if VM_COVERAGE
-  VerilatedCov::write("/home/ben/RV32ISC/test_run_dir/Top_should_pass/coverage.dat");
+  VerilatedCov::write("/home/ben/RISCV/chisel_ref/test_run_dir/Top_should_pass/coverage.dat");
 #endif
   top->final();
   // TODO: re-enable!
@@ -238,7 +235,7 @@ struct sim_state {
 
 static sim_state* create_sim_state() {
   sim_state *s = new sim_state();
-  std::string dumpfile = "/home/ben/RV32ISC/test_run_dir/Top_should_pass/Top.vcd";
+  std::string dumpfile = "/home/ben/RISCV/chisel_ref/test_run_dir/Top_should_pass/Top.";
   _startCoverageAndDump(&s->tfp, dumpfile, s->dut);
   return s;
 }

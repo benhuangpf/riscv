@@ -10,3 +10,5 @@
 1698918195702:testOnly rv32isc.RegistersTest
 1698918492750:test
 1698918558561:testOnly rv32isc.MemInstTest
+1701879856049:testOnly rv32isc.TopTest
+1701882609790:exit

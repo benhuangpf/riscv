@@ -17,3 +17,12 @@
 1700763273777:testOnly rv32isc.TopTest -- -DwriteVcd=1
 1700763388291:testOnly rv32isc.TopTest
 1700764889414:testOnly rv32isc.TopTest -- -DwriteVcd=1
+1701879832729:testOnly rv32isc.TopTest
+1701880007234:reload
+1701880125901:testOnly rv32isc.TopTest
+1701881433629:reload
+1701881438391:testOnly rv32isc.TopTest
+1701883817140:reload
+1701883843167:testOnly rv32isc.TopTest
+1701886888512:exit
+1705007431298:testOnly rv32isc.TopTest

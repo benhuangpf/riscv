@@ -35,7 +35,7 @@ VM_PREFIX = VTop
 VM_MODPREFIX = VTop
 # User CFLAGS (from -CFLAGS on Verilator command line)
 VM_USER_CFLAGS = \
-	-O1 -DVL_USER_STOP -DVL_USER_FATAL -DVL_USER_FINISH -DTOP_TYPE=VTop -include VTop.h -fPIC -shared -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux -fvisibility=hidden \
+	-O1 -DVL_USER_STOP -DVL_USER_FATAL -DVL_USER_FINISH -DTOP_TYPE=VTop -include VTop.h -fPIC -shared -I'/usr/lib/jvm/java-11-openjdk-amd64/include' -I'/usr/lib/jvm/java-11-openjdk-amd64/include/linux' -fvisibility=hidden \
 
 # User LDLIBS (from -LDFLAGS on Verilator command line)
 VM_USER_LDLIBS = \

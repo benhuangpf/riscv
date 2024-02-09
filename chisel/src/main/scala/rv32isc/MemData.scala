@@ -8,7 +8,7 @@ import utils.OP_TYPES._
 import utils.LS_TYPES._
 import utils._
 
-import chisel3.util.experimental.loadMemoryFromFile
+import chisel3.util.experimental.loadMemoryFromFileInline
 // import firrtl.annotations.MemoryLoadFileType
 
 class MemDataIO extends Bundle {
@@ -30,7 +30,7 @@ class MemData extends Module {
     // 从内存中读取的数
     val dataLoad = WireDefault(0.U(DATA_WIDTH.W))
 
-    loadMemoryFromFile(
+    loadMemoryFromFileInline(
             mem,
             "memory/data/MemData.hex"
         )

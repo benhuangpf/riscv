@@ -8,10 +8,9 @@
 #include "verilated.h"
 #include "verilated_cov.h"
 
-
 class VTop__Syms;
 
-class alignas(VL_CACHE_LINE_BYTES) VTop___024root final : public VerilatedModule {
+class VTop___024root final : public VerilatedModule {
   public:
 
     // DESIGN SPECIFIC STATE
@@ -30,10 +29,19 @@ class alignas(VL_CACHE_LINE_BYTES) VTop___024root final : public VerilatedModule
         VL_OUT8(io_bundleCtrl_ctrlSigned,0,0);
         VL_OUT8(io_bundleCtrl_ctrlLSType,1,0);
         VL_OUT8(io_resultBranch,0,0);
-        CData/*0:0*/ __VstlFirstIteration;
-        CData/*0:0*/ __Vtrigprevexpr___TOP__clock__0;
-        CData/*0:0*/ __VactContinue;
-        SData/*9:0*/ Top__DOT__memData__DOT__mem_dataLoad_MPORT_addr;
+        CData/*0:0*/ Top__DOT__decoder_io_bundleCtrl_ctrlJump;
+        CData/*0:0*/ Top__DOT__decoder_io_bundleCtrl_ctrlBranch;
+        CData/*0:0*/ Top__DOT__decoder_io_bundleCtrl_ctrlRegWrite;
+        CData/*0:0*/ Top__DOT__decoder_io_bundleCtrl_ctrlLoad;
+        CData/*0:0*/ Top__DOT__decoder_io_bundleCtrl_ctrlStore;
+        CData/*0:0*/ Top__DOT__decoder_io_bundleCtrl_ctrlALUSrc;
+        CData/*0:0*/ Top__DOT__decoder_io_bundleCtrl_ctrlJAL;
+        CData/*3:0*/ Top__DOT__decoder_io_bundleCtrl_ctrlOP;
+        CData/*0:0*/ Top__DOT__decoder_io_bundleCtrl_ctrlSigned;
+        CData/*0:0*/ Top__DOT__alu_io_resultBranch;
+        CData/*1:0*/ Top__DOT__decoder__DOT___GEN_72;
+        CData/*0:0*/ __Vclklast__TOP__clock;
+        VL_OUT(io_ans,31,0);
         VL_OUT(io_addr,31,0);
         VL_OUT(io_inst,31,0);
         VL_OUT(io_resultALU,31,0);
@@ -41,8 +49,13 @@ class alignas(VL_CACHE_LINE_BYTES) VTop___024root final : public VerilatedModule
         VL_OUT(io_rs2,31,0);
         VL_OUT(io_imm,31,0);
         VL_OUT(io_result,31,0);
+        IData/*31:0*/ Top__DOT__registers_io_dataRead1;
+        IData/*31:0*/ Top__DOT__registers_io_dataRead2;
+        IData/*31:0*/ Top__DOT__memData_io_result;
         IData/*31:0*/ Top__DOT__pcReg__DOT__regPC;
         IData/*31:0*/ Top__DOT__pcReg__DOT___regPC_T_1;
+        IData/*31:0*/ Top__DOT__memInst__DOT__mem_io_inst_MPORT_data;
+        IData/*31:0*/ Top__DOT__memInst__DOT__initvar;
         IData/*31:0*/ Top__DOT__decoder__DOT__imm_i;
         IData/*31:0*/ Top__DOT__registers__DOT__regs_0;
         IData/*31:0*/ Top__DOT__registers__DOT__regs_1;
@@ -67,6 +80,8 @@ class alignas(VL_CACHE_LINE_BYTES) VTop___024root final : public VerilatedModule
         IData/*31:0*/ Top__DOT__registers__DOT__regs_20;
         IData/*31:0*/ Top__DOT__registers__DOT__regs_21;
         IData/*31:0*/ Top__DOT__registers__DOT__regs_22;
+    };
+    struct {
         IData/*31:0*/ Top__DOT__registers__DOT__regs_23;
         IData/*31:0*/ Top__DOT__registers__DOT__regs_24;
         IData/*31:0*/ Top__DOT__registers__DOT__regs_25;
@@ -79,22 +94,19 @@ class alignas(VL_CACHE_LINE_BYTES) VTop___024root final : public VerilatedModule
         IData/*31:0*/ Top__DOT__alu__DOT__oprand1;
         IData/*31:0*/ Top__DOT__alu__DOT__oprand2;
         IData/*31:0*/ Top__DOT__memData__DOT__mem_dataLoad_MPORT_data;
-        IData/*31:0*/ __VactIterCount;
-        VlUnpacked<IData/*31:0*/, 1024> Top__DOT__memInst__DOT__mem;
-    };
-    struct {
+        IData/*31:0*/ Top__DOT__memData__DOT__initvar;
+        QData/*32:0*/ Top__DOT__decoder__DOT___GEN_89;
+        QData/*62:0*/ Top__DOT__alu__DOT___GEN_29;
+        VlUnpacked<IData/*31:0*/, 4096> Top__DOT__memInst__DOT__mem;
         VlUnpacked<IData/*31:0*/, 1024> Top__DOT__memData__DOT__mem;
         VlUnpacked<CData/*0:0*/, 2> __Vm_traceActivity;
     };
-    VlTriggerVec<1> __VstlTriggered;
-    VlTriggerVec<1> __VactTriggered;
-    VlTriggerVec<1> __VnbaTriggered;
 
     // INTERNAL VARIABLES
     VTop__Syms* const vlSymsp;
 
     // CONSTRUCTORS
-    VTop___024root(VTop__Syms* symsp, const char* v__name);
+    VTop___024root(VTop__Syms* symsp, const char* name);
     ~VTop___024root();
     VL_UNCOPYABLE(VTop___024root);
 
@@ -102,7 +114,7 @@ class alignas(VL_CACHE_LINE_BYTES) VTop___024root final : public VerilatedModule
     void __Vconfigure(bool first);
     void __vlCoverInsert(uint32_t* countp, bool enable, const char* filenamep, int lineno, int column,
         const char* hierp, const char* pagep, const char* commentp, const char* linescovp);
-};
+} VL_ATTR_ALIGNED(VL_CACHE_LINE_BYTES);
 
 
 #endif  // guard

@@ -27,10 +27,10 @@ trait TopTestFunc {
         // }      
         dut.clock.step(1)      
         while (dut.io.inst.peekInt() != 0) {
-            if (dut.io.addr.peekInt() == 0xa8) {
+            if (dut.io.addr.peekInt() == 0x10e4) {
                 println("rs2", dut.io.rs2.peekInt())
-                println("ans", dut.io.ans.read)                    
-                if (dut.io.rs2.peekInt() == dut.io.ans.read)
+                println("ans", dut.io.ans.peekInt())                    
+                if (dut.io.rs2.peekInt() == dut.io.ans.peekInt())
                     println("The answer is correct.")
                 else println("The answer is wrong.")
             }

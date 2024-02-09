@@ -8,7 +8,7 @@ import utils._
 
 // Top的模块接口，用于测试
 class TopIO extends Bundle {
-    val ans = new Ans()
+    val ans = Output(UInt(ADDR_WIDTH.W))
     val addr = Output(UInt(ADDR_WIDTH.W))
     val inst = Output(UInt(INST_WIDTH.W))
     val bundleCtrl = new BundleControl()
@@ -23,6 +23,7 @@ class TopIO extends Bundle {
 class Top extends Module {
     val io = IO(new TopIO())
 
+    val ans = Module(new Ans())
     val pcReg = Module(new PCReg())
     val memInst = Module(new MemInst())
     val decoder = Module(new Decoder())
@@ -66,6 +67,7 @@ class Top extends Module {
     controller.io.bundleControlIn <> decoder.io.bundleCtrl
     
     // top
+    io.ans <> ans.io.read
     io.addr <> pcReg.io.addrOut
     io.bundleCtrl <> decoder.io.bundleCtrl
     io.inst <> memInst.io.inst

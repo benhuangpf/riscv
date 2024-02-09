@@ -1,0 +1,68 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Thu Feb  8 07:47:28 2024
+[*]
+[dumpfile] "/home/ben/RISCV/chipyard/modified-small/Final.vcd"
+[dumpfile_mtime] "Tue Feb  6 18:36:04 2024"
+[dumpfile_size] 672767
+[savefile] "/home/ben/RISCV/chipyard/modified-small/loadgtk.gtkw"
+[timestart] 332260
+[size] 1920 860
+[pos] -1 -1
+*-13.000000 339630 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TestDriver.
+[treeopen] TestDriver.chip0.
+[treeopen] TestDriver.chip0.core.
+[sst_width] 388
+[signals_width] 558
+[sst_expanded] 1
+[sst_vpaned_height] 193
+@28
+TestDriver.chip0.core.clock[0]
+TestDriver.chip0.core.reset[0]
+@22
+TestDriver.chip0.core.io_imem_req_bits_pc[31:0]
+@28
+TestDriver.chip0.core.io_imem_req_valid[0]
+TestDriver.chip0.core.take_pc_mem[0]
+TestDriver.chip0.core.mem_cfi_taken[0]
+TestDriver.chip0.core._mem_cfi_taken_T[0]
+TestDriver.chip0.core.mem_ctrl_jal[0]
+TestDriver.chip0.core.mem_ctrl_jalr[0]
+TestDriver.chip0.core.take_pc_mem_wb[0]
+TestDriver.chip0.core.take_pc_wb[0]
+TestDriver.chip0.core.replay_wb[0]
+TestDriver.chip0.core.replay_wb_common[0]
+TestDriver.chip0.core.io_dmem_s2_nack[0]
+TestDriver.chip0.core.wb_reg_replay[0]
+TestDriver.chip0.core.mem_reg_replay[0]
+@22
+TestDriver.chip0.core.io_imem_resp_bits_data[31:0]
+@23
+TestDriver.chip0.core.io_imem_resp_bits_pc[31:0]
+@28
+TestDriver.chip0.core.io_imem_bht_update_valid[0]
+TestDriver.chip0.core.io_imem_btb_update_valid[0]
+TestDriver.chip0.core.io_imem_flush_icache[0]
+TestDriver.chip0.core.io_imem_gpa_valid[0]
+TestDriver.chip0.core.io_imem_might_request[0]
+@22
+TestDriver.chip0.core.io_imem_req_bits_pc[31:0]
+@28
+TestDriver.chip0.core.io_imem_req_bits_speculative[0]
+TestDriver.chip0.core.io_imem_req_valid[0]
+TestDriver.chip0.core.io_imem_resp_bits_btb_bridx[0]
+TestDriver.chip0.core.io_imem_resp_bits_btb_taken[0]
+@22
+TestDriver.chip0.core.io_imem_resp_bits_data[31:0]
+TestDriver.chip0.core.io_imem_resp_bits_pc[31:0]
+@28
+TestDriver.chip0.core.io_imem_resp_bits_replay[0]
+TestDriver.chip0.core.io_imem_resp_bits_xcpt_ae_inst[0]
+TestDriver.chip0.core.io_imem_resp_bits_xcpt_gf_inst[0]
+TestDriver.chip0.core.io_imem_resp_bits_xcpt_pf_inst[0]
+TestDriver.chip0.core.io_imem_resp_ready[0]
+TestDriver.chip0.core.io_imem_resp_valid[0]
+TestDriver.chip0.core.io_imem_sfence_valid[0]
+[pattern_trace] 1
+[pattern_trace] 0

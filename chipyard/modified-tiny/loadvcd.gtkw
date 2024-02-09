@@ -1,0 +1,59 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Tue Feb  6 22:43:59 2024
+[*]
+[dumpfile] "/home/ben/RISCV/chipyard/modified-tiny/Final.vcd"
+[dumpfile_mtime] "Tue Feb  6 18:44:25 2024"
+[dumpfile_size] 43543
+[savefile] "/home/ben/RISCV/chipyard/modified-tiny/loadvcd.gtkw"
+[timestart] 323440
+[size] 1920 848
+[pos] -1 -1
+*-11.000000 279000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TestDriver.
+[treeopen] TestDriver.chip0.
+[sst_width] 388
+[signals_width] 558
+[sst_expanded] 1
+[sst_vpaned_height] 205
+@28
+TestDriver.chip0.core.clock[0]
+TestDriver.chip0.core.reset[0]
+@22
+TestDriver.chip0.core.io_imem_req_bits_pc[31:0]
+@28
+TestDriver.chip0.core.io_imem_req_valid[0]
+@23
+TestDriver.chip0.core.io_imem_resp_bits_data[31:0]
+@22
+TestDriver.chip0.core.io_imem_resp_bits_pc[31:0]
+@28
+TestDriver.chip0.core.io_imem_bht_update_valid[0]
+TestDriver.chip0.core.io_imem_btb_update_valid[0]
+TestDriver.chip0.core.io_imem_flush_icache[0]
+TestDriver.chip0.core.io_imem_gpa_valid[0]
+TestDriver.chip0.core.io_imem_might_request[0]
+@22
+TestDriver.chip0.core.io_imem_req_bits_pc[31:0]
+@28
+TestDriver.chip0.core.io_imem_req_bits_speculative[0]
+TestDriver.chip0.core.io_imem_req_valid[0]
+TestDriver.chip0.core.io_imem_resp_bits_btb_bridx[0]
+TestDriver.chip0.core.io_imem_resp_bits_btb_taken[0]
+@22
+TestDriver.chip0.core.io_imem_resp_bits_data[31:0]
+TestDriver.chip0.core.io_imem_resp_bits_pc[31:0]
+@28
+TestDriver.chip0.core.io_imem_resp_bits_replay[0]
+TestDriver.chip0.core.io_imem_resp_bits_xcpt_ae_inst[0]
+TestDriver.chip0.core.io_imem_resp_bits_xcpt_gf_inst[0]
+TestDriver.chip0.core.io_imem_resp_bits_xcpt_pf_inst[0]
+TestDriver.chip0.core.io_imem_resp_ready[0]
+TestDriver.chip0.core.io_imem_resp_valid[0]
+TestDriver.chip0.core.io_imem_sfence_valid[0]
+TestDriver.chip0.core.io_interrupts_debug[0]
+TestDriver.chip0.core.io_interrupts_meip[0]
+TestDriver.chip0.core.io_interrupts_msip[0]
+TestDriver.chip0.core.io_interrupts_mtip[0]
+[pattern_trace] 1
+[pattern_trace] 0
