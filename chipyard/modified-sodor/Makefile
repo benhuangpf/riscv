@@ -2,7 +2,7 @@
 default: waveform
 CLOCK_PERIOD ?= 2.0
 RESET_DELAY ?= 100
-END_CYCLE ?= 300
+END_CYCLE ?= 500
 TB ?= TestDriver
 
 DEFINES = \

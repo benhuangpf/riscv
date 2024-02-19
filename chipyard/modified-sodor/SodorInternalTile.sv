@@ -68,7 +68,9 @@
   `endif // RANDOMIZE
 `endif // not def INIT_RANDOM_PROLOG_
 
-`define SIZE_TEXT 2048  // You can change the size
+`define SIZE_TEXT 2048
+`define SIZE_DATA 1024
+`define SIZE_STACK 1024
 
 module SodorInternalTile(
   input         clock,
@@ -157,7 +159,22 @@ module SodorInternalTile(
   );
 
   wire [31:0] mem_rdata_I, mem_rdata_D;
-  reg [31:0] mem_text_offset;
+  reg [31:0] mem_text_offset, mem_data_offset, mem_stack_offset;
+  integer i;
+  initial begin
+    mem_text_offset = 32'h80000000;
+    mem_data_offset = 32'h80000000; 
+    mem_stack_offset = 32'h80021000;  
+    for (i=0; i<`SIZE_TEXT; i=i+1) begin
+      mem_text.mem[i] = 0;
+    end
+    for (i=0; i<`SIZE_DATA; i=i+1) begin
+      mem_data.mem[i] = 0;
+    end
+    for (i=0; i<`SIZE_STACK; i=i+1) begin
+      mem_stack.mem[i] = 0;
+    end
+  end
   memory #(.word_depth(`SIZE_TEXT)) mem_text(
     .clk(clock),
     .rst_n(reset),
@@ -166,17 +183,22 @@ module SodorInternalTile(
     .d(32'd0),
     .q(mem_rdata_I),
     .offset(mem_text_offset));
-  initial begin
-      mem_text_offset = 32'h80000000;   
-  end
-  memory #(.word_depth(`SIZE_TEXT)) mem_data(
+  memory #(.word_depth(`SIZE_DATA)) mem_data(
     .clk(clock),
     .rst_n(reset),
-    .wen(_core_io_dmem_req_valid),
+    .wen(_core_io_dmem_req_bits_fcn),
     .a(_core_io_dmem_req_bits_addr),
     .d(_core_io_dmem_req_bits_data),
     .q(mem_rdata_D),
-    .offset(32'h0));
+    .offset(mem_data_offset));
+  memory #(.word_depth(`SIZE_STACK)) mem_stack(
+    .clk(clock),
+    .rst_n(reset),
+    .wen(_core_io_dmem_req_bits_fcn),
+    .a(_core_io_dmem_req_bits_addr),
+    .d(_core_io_dmem_req_bits_data),
+    .q(mem_rdata_D),
+    .offset(mem_stack_offset));
 
   // AsyncScratchPadMemory memory (	// @[sodor_internal_tile.scala:122:22]
   //   .clock                          (clock),
@@ -201,55 +223,55 @@ module SodorInternalTile(
   //   .io_debug_port_resp_valid       (io_debug_port_resp_valid),
   //   .io_debug_port_resp_bits_data   (io_debug_port_resp_bits_data)
   // );
-  SodorRequestRouter router (	// @[sodor_internal_tile.scala:126:24]
-    // .io_masterPort_resp_valid      (io_master_port_0_resp_valid),
-    .io_masterPort_resp_valid      (1'b0),
-    .io_masterPort_resp_bits_data  (io_master_port_0_resp_bits_data),
-    .io_scratchPort_resp_valid     (_memory_io_core_ports_0_resp_valid),	// @[sodor_internal_tile.scala:122:22]
-    .io_scratchPort_resp_bits_data (_memory_io_core_ports_0_resp_bits_data),	// @[sodor_internal_tile.scala:122:22]
-    .io_corePort_req_valid         (_core_io_dmem_req_valid),	// @[sodor_internal_tile.scala:120:22]
-    .io_corePort_req_bits_addr     (_core_io_dmem_req_bits_addr),	// @[sodor_internal_tile.scala:120:22]
-    .io_corePort_req_bits_data     (_core_io_dmem_req_bits_data),	// @[sodor_internal_tile.scala:120:22]
-    .io_corePort_req_bits_fcn      (_core_io_dmem_req_bits_fcn),	// @[sodor_internal_tile.scala:120:22]
-    .io_corePort_req_bits_typ      (_core_io_dmem_req_bits_typ),	// @[sodor_internal_tile.scala:120:22]
-    .io_respAddress                (_core_io_dmem_req_bits_addr),	// @[sodor_internal_tile.scala:120:22]
-    .io_masterPort_req_valid       (io_master_port_0_req_valid),
-    .io_masterPort_req_bits_addr   (io_master_port_0_req_bits_addr),
-    .io_masterPort_req_bits_data   (io_master_port_0_req_bits_data),
-    .io_masterPort_req_bits_fcn    (io_master_port_0_req_bits_fcn),
-    .io_masterPort_req_bits_typ    (io_master_port_0_req_bits_typ),
-    .io_scratchPort_req_valid      (_router_io_scratchPort_req_valid),
-    .io_scratchPort_req_bits_addr  (_router_io_scratchPort_req_bits_addr),
-    .io_scratchPort_req_bits_data  (_router_io_scratchPort_req_bits_data),
-    .io_scratchPort_req_bits_fcn   (_router_io_scratchPort_req_bits_fcn),
-    .io_scratchPort_req_bits_typ   (_router_io_scratchPort_req_bits_typ),
-    .io_corePort_resp_valid        (_router_io_corePort_resp_valid),
-    .io_corePort_resp_bits_data    (_router_io_corePort_resp_bits_data)
-  );
-  SodorRequestRouter router_1 (	// @[sodor_internal_tile.scala:126:24]
-    // .io_masterPort_resp_valid      (io_master_port_1_resp_valid),
-    .io_masterPort_resp_valid      (1'b0),
-    .io_masterPort_resp_bits_data  (io_master_port_1_resp_bits_data),
-    .io_scratchPort_resp_valid     (_memory_io_core_ports_1_resp_valid),	// @[sodor_internal_tile.scala:122:22]
-    .io_scratchPort_resp_bits_data (_memory_io_core_ports_1_resp_bits_data),	// @[sodor_internal_tile.scala:122:22]
-    .io_corePort_req_valid         (_core_io_imem_req_valid),	// @[sodor_internal_tile.scala:120:22]
-    .io_corePort_req_bits_addr     (_core_io_imem_req_bits_addr),	// @[sodor_internal_tile.scala:120:22]
-    .io_corePort_req_bits_data     (32'h0),	// @[sodor_internal_tile.scala:126:24]
-    .io_corePort_req_bits_fcn      (1'h0),	// @[sodor_internal_tile.scala:126:24]
-    .io_corePort_req_bits_typ      (3'h7),	// @[sodor_internal_tile.scala:126:24]
-    .io_respAddress                (_core_io_imem_req_bits_addr),	// @[sodor_internal_tile.scala:120:22]
-    .io_masterPort_req_valid       (io_master_port_1_req_valid),
-    .io_masterPort_req_bits_addr   (io_master_port_1_req_bits_addr),
-    .io_masterPort_req_bits_data   (io_master_port_1_req_bits_data),
-    .io_masterPort_req_bits_fcn    (io_master_port_1_req_bits_fcn),
-    .io_masterPort_req_bits_typ    (io_master_port_1_req_bits_typ),
-    .io_scratchPort_req_valid      (_router_1_io_scratchPort_req_valid),
-    .io_scratchPort_req_bits_addr  (_router_1_io_scratchPort_req_bits_addr),
-    .io_scratchPort_req_bits_data  (_router_1_io_scratchPort_req_bits_data),
-    .io_scratchPort_req_bits_fcn   (_router_1_io_scratchPort_req_bits_fcn),
-    .io_scratchPort_req_bits_typ   (_router_1_io_scratchPort_req_bits_typ),
-    .io_corePort_resp_valid        (_router_1_io_corePort_resp_valid),
-    .io_corePort_resp_bits_data    (_router_1_io_corePort_resp_bits_data)
-  );
+  // SodorRequestRouter router (	// @[sodor_internal_tile.scala:126:24]
+  //   // .io_masterPort_resp_valid      (io_master_port_0_resp_valid),
+  //   .io_masterPort_resp_valid      (1'b0),
+  //   .io_masterPort_resp_bits_data  (io_master_port_0_resp_bits_data),
+  //   .io_scratchPort_resp_valid     (_memory_io_core_ports_0_resp_valid),	// @[sodor_internal_tile.scala:122:22]
+  //   .io_scratchPort_resp_bits_data (_memory_io_core_ports_0_resp_bits_data),	// @[sodor_internal_tile.scala:122:22]
+  //   .io_corePort_req_valid         (_core_io_dmem_req_valid),	// @[sodor_internal_tile.scala:120:22]
+  //   .io_corePort_req_bits_addr     (_core_io_dmem_req_bits_addr),	// @[sodor_internal_tile.scala:120:22]
+  //   .io_corePort_req_bits_data     (_core_io_dmem_req_bits_data),	// @[sodor_internal_tile.scala:120:22]
+  //   .io_corePort_req_bits_fcn      (_core_io_dmem_req_bits_fcn),	// @[sodor_internal_tile.scala:120:22]
+  //   .io_corePort_req_bits_typ      (_core_io_dmem_req_bits_typ),	// @[sodor_internal_tile.scala:120:22]
+  //   .io_respAddress                (_core_io_dmem_req_bits_addr),	// @[sodor_internal_tile.scala:120:22]
+  //   .io_masterPort_req_valid       (io_master_port_0_req_valid),
+  //   .io_masterPort_req_bits_addr   (io_master_port_0_req_bits_addr),
+  //   .io_masterPort_req_bits_data   (io_master_port_0_req_bits_data),
+  //   .io_masterPort_req_bits_fcn    (io_master_port_0_req_bits_fcn),
+  //   .io_masterPort_req_bits_typ    (io_master_port_0_req_bits_typ),
+  //   .io_scratchPort_req_valid      (_router_io_scratchPort_req_valid),
+  //   .io_scratchPort_req_bits_addr  (_router_io_scratchPort_req_bits_addr),
+  //   .io_scratchPort_req_bits_data  (_router_io_scratchPort_req_bits_data),
+  //   .io_scratchPort_req_bits_fcn   (_router_io_scratchPort_req_bits_fcn),
+  //   .io_scratchPort_req_bits_typ   (_router_io_scratchPort_req_bits_typ),
+  //   .io_corePort_resp_valid        (_router_io_corePort_resp_valid),
+  //   .io_corePort_resp_bits_data    (_router_io_corePort_resp_bits_data)
+  // );
+  // SodorRequestRouter router_1 (	// @[sodor_internal_tile.scala:126:24]
+  //   // .io_masterPort_resp_valid      (io_master_port_1_resp_valid),
+  //   .io_masterPort_resp_valid      (1'b0),
+  //   .io_masterPort_resp_bits_data  (io_master_port_1_resp_bits_data),
+  //   .io_scratchPort_resp_valid     (_memory_io_core_ports_1_resp_valid),	// @[sodor_internal_tile.scala:122:22]
+  //   .io_scratchPort_resp_bits_data (_memory_io_core_ports_1_resp_bits_data),	// @[sodor_internal_tile.scala:122:22]
+  //   .io_corePort_req_valid         (_core_io_imem_req_valid),	// @[sodor_internal_tile.scala:120:22]
+  //   .io_corePort_req_bits_addr     (_core_io_imem_req_bits_addr),	// @[sodor_internal_tile.scala:120:22]
+  //   .io_corePort_req_bits_data     (32'h0),	// @[sodor_internal_tile.scala:126:24]
+  //   .io_corePort_req_bits_fcn      (1'h0),	// @[sodor_internal_tile.scala:126:24]
+  //   .io_corePort_req_bits_typ      (3'h7),	// @[sodor_internal_tile.scala:126:24]
+  //   .io_respAddress                (_core_io_imem_req_bits_addr),	// @[sodor_internal_tile.scala:120:22]
+  //   .io_masterPort_req_valid       (io_master_port_1_req_valid),
+  //   .io_masterPort_req_bits_addr   (io_master_port_1_req_bits_addr),
+  //   .io_masterPort_req_bits_data   (io_master_port_1_req_bits_data),
+  //   .io_masterPort_req_bits_fcn    (io_master_port_1_req_bits_fcn),
+  //   .io_masterPort_req_bits_typ    (io_master_port_1_req_bits_typ),
+  //   .io_scratchPort_req_valid      (_router_1_io_scratchPort_req_valid),
+  //   .io_scratchPort_req_bits_addr  (_router_1_io_scratchPort_req_bits_addr),
+  //   .io_scratchPort_req_bits_data  (_router_1_io_scratchPort_req_bits_data),
+  //   .io_scratchPort_req_bits_fcn   (_router_1_io_scratchPort_req_bits_fcn),
+  //   .io_scratchPort_req_bits_typ   (_router_1_io_scratchPort_req_bits_typ),
+  //   .io_corePort_resp_valid        (_router_1_io_corePort_resp_valid),
+  //   .io_corePort_resp_bits_data    (_router_1_io_corePort_resp_bits_data)
+  // );
 endmodule
 
