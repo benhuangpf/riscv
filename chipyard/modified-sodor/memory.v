@@ -29,8 +29,8 @@ module memory #(
     reg  [BITS-1:0] mem_addr [0:word_depth-1];
 
     wire [BITS-1:0] test1, test2;
-    assign test1 = mem_addr[0];
-    assign test2 = mem[1042];
+    // assign test1 = mem_addr[0];
+    // assign test2 = mem[1042];
 
     integer i;
 

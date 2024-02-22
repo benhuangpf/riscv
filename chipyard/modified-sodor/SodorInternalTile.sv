@@ -68,9 +68,9 @@
   `endif // RANDOMIZE
 `endif // not def INIT_RANDOM_PROLOG_
 
-`define SIZE_TEXT 2048
-`define SIZE_DATA 1024
-`define SIZE_STACK 1024
+// `define SIZE_TEXT 1024
+// `define SIZE_DATA 128
+// `define SIZE_STACK 128
 
 module SodorInternalTile(
   input         clock,
@@ -159,12 +159,12 @@ module SodorInternalTile(
   );
 
   wire [31:0] mem_rdata_I, mem_rdata_D;
-  reg [31:0] mem_text_offset, mem_data_offset, mem_stack_offset;
+  // reg [31:0] mem_text_offset, mem_data_offset, mem_stack_offset;
   integer i;
   initial begin
-    mem_text_offset = 32'h80000000;
-    mem_data_offset = 32'h80000000; 
-    mem_stack_offset = 32'h80021000;  
+    // mem_text_offset = 32'h80000000;
+    // mem_data_offset = 32'h80001000; 
+    // mem_stack_offset = 32'h80021000;  
     for (i=0; i<`SIZE_TEXT; i=i+1) begin
       mem_text.mem[i] = 0;
     end
@@ -182,7 +182,7 @@ module SodorInternalTile(
     .a(_core_io_imem_req_bits_addr),
     .d(32'd0),
     .q(mem_rdata_I),
-    .offset(mem_text_offset));
+    .offset(`OFFSET_TEXT));
   memory #(.word_depth(`SIZE_DATA)) mem_data(
     .clk(clock),
     .rst_n(reset),
@@ -190,7 +190,7 @@ module SodorInternalTile(
     .a(_core_io_dmem_req_bits_addr),
     .d(_core_io_dmem_req_bits_data),
     .q(mem_rdata_D),
-    .offset(mem_data_offset));
+    .offset(`OFFSET_DATA));
   memory #(.word_depth(`SIZE_STACK)) mem_stack(
     .clk(clock),
     .rst_n(reset),
@@ -198,7 +198,7 @@ module SodorInternalTile(
     .a(_core_io_dmem_req_bits_addr),
     .d(_core_io_dmem_req_bits_data),
     .q(mem_rdata_D),
-    .offset(mem_stack_offset));
+    .offset(`OFFSET_STACK));
 
   // AsyncScratchPadMemory memory (	// @[sodor_internal_tile.scala:122:22]
   //   .clock                          (clock),

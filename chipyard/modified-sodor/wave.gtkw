@@ -1,19 +1,17 @@
 [*]
 [*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
-[*] Mon Feb 19 03:36:33 2024
+[*] Thu Feb 22 21:52:37 2024
 [*]
 [dumpfile] "/home/ben/riscv/chipyard/modified-sodor/Final.vcd"
-[dumpfile_mtime] "Sun Feb 18 17:56:05 2024"
-[dumpfile_size] 15708
+[dumpfile_mtime] "Thu Feb 22 21:52:06 2024"
+[dumpfile_size] 62553
 [savefile] "/home/ben/riscv/chipyard/modified-sodor/wave.gtkw"
-[timestart] 211940
+[timestart] 1280900
 [size] 1908 975
 [pos] -1 -1
-*-12.000000 221420 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-16.624142 1029940 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] TestDriver.
 [treeopen] TestDriver.chip0.
-[treeopen] TestDriver.chip0.core.
-[treeopen] TestDriver.chip0.core.d.
 [sst_width] 388
 [signals_width] 478
 [sst_expanded] 1
@@ -27,7 +25,7 @@ TestDriver.chip0.core.io_dmem_req_bits_data[31:0]
 TestDriver.chip0.core.io_dmem_req_bits_fcn[0]
 TestDriver.chip0.core.io_dmem_req_bits_typ[2:0]
 TestDriver.chip0.core.io_dmem_req_valid[0]
-@23
+@22
 TestDriver.chip0.core.io_dmem_resp_bits_data[31:0]
 @28
 TestDriver.chip0.core.io_dmem_resp_valid[0]
@@ -38,8 +36,6 @@ TestDriver.chip0.core.io_imem_req_bits_addr[31:0]
 TestDriver.chip0.core.io_imem_req_valid[0]
 @22
 TestDriver.chip0.core.io_imem_resp_bits_data[31:0]
-TestDriver.chip0.core.d.rs1_data[31:0]
-TestDriver.chip0.core.d.rs2_data[31:0]
 @28
 TestDriver.chip0.core.io_imem_resp_valid[0]
 TestDriver.chip0.core.io_interrupt_debug[0]
