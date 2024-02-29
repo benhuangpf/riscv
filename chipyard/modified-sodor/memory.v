@@ -55,7 +55,7 @@ module memory #(
 
     // always @(posedge clk or negedge rst_n) begin
     //     if (!rst_n) begin
-    always @(clk) begin
+    always @(posedge clk) begin
         if (rst_n) begin
             for (i=0; i<word_depth; i=i+1)
                 mem[i] <= 0;

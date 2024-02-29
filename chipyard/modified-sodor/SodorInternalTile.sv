@@ -168,9 +168,9 @@ module SodorInternalTile(
     for (i=0; i<`SIZE_TEXT; i=i+1) begin
       mem_text.mem[i] = 0;
     end
-    for (i=0; i<`SIZE_DATA; i=i+1) begin
-      mem_data.mem[i] = 0;
-    end
+    // for (i=0; i<`SIZE_DATA; i=i+1) begin
+    //   mem_data.mem[i] = 0;
+    // end
     for (i=0; i<`SIZE_STACK; i=i+1) begin
       mem_stack.mem[i] = 0;
     end
@@ -183,14 +183,14 @@ module SodorInternalTile(
     .d(32'd0),
     .q(mem_rdata_I),
     .offset(`OFFSET_TEXT));
-  memory #(.word_depth(`SIZE_DATA)) mem_data(
-    .clk(clock),
-    .rst_n(reset),
-    .wen(_core_io_dmem_req_bits_fcn),
-    .a(_core_io_dmem_req_bits_addr),
-    .d(_core_io_dmem_req_bits_data),
-    .q(mem_rdata_D),
-    .offset(`OFFSET_DATA));
+  // memory #(.word_depth(`SIZE_DATA)) mem_data(
+  //   .clk(clock),
+  //   .rst_n(reset),
+  //   .wen(_core_io_dmem_req_bits_fcn),
+  //   .a(_core_io_dmem_req_bits_addr),
+  //   .d(_core_io_dmem_req_bits_data),
+  //   .q(mem_rdata_D),
+  //   .offset(`OFFSET_DATA));
   memory #(.word_depth(`SIZE_STACK)) mem_stack(
     .clk(clock),
     .rst_n(reset),

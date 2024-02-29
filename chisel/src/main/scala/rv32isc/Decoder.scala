@@ -49,10 +49,19 @@ class Decoder extends Module {
 
     // 根据opcode对控制信号赋值
     switch (io.inst(6, 2)) {
-        // U: LUI, AUIPC
-        is ("b01101".U, "b00101".U) {
+        // modified
+        // U: LUI
+        is ("b01101".U) {
             ctrlALUSrc := true.B
             ctrlOP := OP_ADD
+            imm := imm_u
+        }
+        // U: AUIPC
+        is ("b00101".U) {
+            ctrlALUSrc := true.B
+            ctrlOP := OP_ADD
+            //just for alu computing pc+imm
+            ctrlJAL := true.B
             imm := imm_u
         }
         // J: JAL

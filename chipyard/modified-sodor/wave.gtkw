@@ -1,21 +1,25 @@
 [*]
 [*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
-[*] Thu Feb 22 21:52:37 2024
+[*] Tue Feb 27 23:35:07 2024
 [*]
 [dumpfile] "/home/ben/riscv/chipyard/modified-sodor/Final.vcd"
-[dumpfile_mtime] "Thu Feb 22 21:52:06 2024"
-[dumpfile_size] 62553
+[dumpfile_mtime] "Tue Feb 27 23:28:27 2024"
+[dumpfile_size] 62449
 [savefile] "/home/ben/riscv/chipyard/modified-sodor/wave.gtkw"
-[timestart] 1280900
+[timestart] 1260370
 [size] 1908 975
 [pos] -1 -1
-*-16.624142 1029940 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-11.624142 1255000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] TestDriver.
 [treeopen] TestDriver.chip0.
+[treeopen] TestDriver.chip0.core.
+[treeopen] TestDriver.chip0.core.d.
+[treeopen] TestDriver.chip1.
+[treeopen] TestDriver.chip1.core.
 [sst_width] 388
 [signals_width] 478
 [sst_expanded] 1
-[sst_vpaned_height] 597
+[sst_vpaned_height] 574
 @28
 TestDriver.chip0.core.clock[0]
 @22
@@ -29,19 +33,74 @@ TestDriver.chip0.core.io_dmem_req_valid[0]
 TestDriver.chip0.core.io_dmem_resp_bits_data[31:0]
 @28
 TestDriver.chip0.core.io_dmem_resp_valid[0]
-TestDriver.chip0.core.io_hartid[0]
 @22
 TestDriver.chip0.core.io_imem_req_bits_addr[31:0]
+TestDriver.chip0.core.d.rs1_data[31:0]
+TestDriver.chip0.core.d.rs2_data[31:0]
+TestDriver.chip0.core.d.wb_data[31:0]
 @28
+TestDriver.chip0.core.d.wb_wen[0]
+@22
+TestDriver.chip0.core.d.regfile_ext.R1_addr[4:0]
+TestDriver.chip0.core.d.regfile_ext.R1_data[31:0]
+TestDriver.chip0.core.d.regfile_ext.R2_addr[4:0]
+TestDriver.chip0.core.d.regfile_ext.R2_data[31:0]
+TestDriver.chip0.core.d.regfile_ext.W0_addr[4:0]
+TestDriver.chip0.core.d.regfile_ext.W0_data[31:0]
+@28
+TestDriver.chip0.core.d.regfile_ext.W0_en[0]
 TestDriver.chip0.core.io_imem_req_valid[0]
 @22
 TestDriver.chip0.core.io_imem_resp_bits_data[31:0]
 @28
 TestDriver.chip0.core.io_imem_resp_valid[0]
-TestDriver.chip0.core.io_interrupt_debug[0]
-TestDriver.chip0.core.io_interrupt_meip[0]
-TestDriver.chip0.core.io_interrupt_msip[0]
-TestDriver.chip0.core.io_interrupt_mtip[0]
 TestDriver.chip0.core.reset[0]
+TestDriver.chip1.core.clk[0]
+@22
+TestDriver.chip1.core.for_ALUlarge[31:0]
+@28
+TestDriver.chip1.core.funct3[2:0]
+@22
+TestDriver.chip1.core.funct7[6:0]
+TestDriver.chip1.core.imm[31:0]
+@28
+TestDriver.chip1.core.inst3025[1:0]
+@22
+TestDriver.chip1.core.mem_addr_D[31:0]
+TestDriver.chip1.core.mem_addr_I[31:0]
+TestDriver.chip1.core.mem_rdata_D[31:0]
+TestDriver.chip1.core.mem_rdata_I[31:0]
+TestDriver.chip1.core.mem_wdata_D[31:0]
+@28
+TestDriver.chip1.core.mem_wen_D[0]
+@22
+TestDriver.chip1.core.opcode[6:0]
+TestDriver.chip1.core.operand1[31:0]
+TestDriver.chip1.core.operand2[31:0]
+TestDriver.chip1.core.out[31:0]
+TestDriver.chip1.core.rd[4:0]
+TestDriver.chip1.core.rd_data[31:0]
+@28
+TestDriver.chip1.core.ready[0]
+TestDriver.chip1.core.regWrite[0]
+@22
+TestDriver.chip1.core.rs1[4:0]
+TestDriver.chip1.core.rs1_data[31:0]
+TestDriver.chip1.core.rs2[4:0]
+TestDriver.chip1.core.rs2_data[31:0]
+@28
+TestDriver.chip1.core.rst_n[0]
+TestDriver.chip1.core.valid[0]
+TestDriver.clock[0]
+TestDriver.reset[0]
+@29
+TestDriver.reset1[0]
+@22
+TestDriver.chip0.core.d.io_imem_req_bits_addr[31:0]
+TestDriver.chip1.core.mem_addr_I[31:0]
+TestDriver.chip0.core.d.io_imem_resp_bits_data[31:0]
+TestDriver.chip1.core.mem_rdata_I[31:0]
+TestDriver.chip0.core.d.rs2_data[31:0]
+TestDriver.chip1.core.rs2_data[31:0]
 [pattern_trace] 1
 [pattern_trace] 0

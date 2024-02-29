@@ -116,6 +116,11 @@ module CHIP(clk,
         begin
             PC_nxt = PC + imm;
         end
+        // blt
+        else if((branch && !ALUlarge && (funct3 == 3'b100)))
+        begin
+            PC_nxt = PC + imm;
+        end
         // jalr
         else if(opcode == 'b1100111)
         begin
@@ -144,6 +149,7 @@ module CHIP(clk,
                 ALUop = 2'b10;
             end
             // I-type (addi, slti)
+            // new slli
             7'b0010011:  
             begin
                 branch = 1'b0;
@@ -259,6 +265,7 @@ module CHIP(clk,
                 imm = {{20{mem_rdata_I[31]}}, mem_rdata_I[31:20]};
             end
             // I-type (addi, slti)
+            // new slli
             7'b0010011:  
             begin
                 imm = {{20{mem_rdata_I[31]}}, mem_rdata_I[31:20]};
@@ -299,9 +306,14 @@ module CHIP(clk,
             2'b10: 
             begin
             	case(opcode)
-            	    7'b0010011: 
+            	    7'b0010011: //I-type
                     begin
             	    	case(funct3) 
+                            3'b001: //slli
+                            begin
+                                ALU_mode = 4'b0001;
+                            end
+
                             3'b000:
                             begin
                                 ALU_mode = 4'b0010;
@@ -445,6 +457,12 @@ module CHIP(clk,
     always @(*)
     begin
         case(ALU_mode)
+
+            4'b0001: // slli
+            begin
+                ALU_out = operand1 << operand2;
+            end
+
             4'b0110:
             begin
                 ALU_out = for_ALUlarge;
@@ -467,9 +485,11 @@ module CHIP(clk,
         endcase
     end
 
-    always @(posedge clk or negedge rst_n) begin
-        if (!rst_n) begin
-            PC <= 32'h000010c4; // Do not modify this value!!!
+    // always @(posedge clk or negedge rst_n) begin
+    //     if (!rst_n) begin
+    always @(posedge clk) begin
+        if (rst_n) begin
+            PC <= 32'h800010e8; // Do not modify this value!!!
         end
 
         else begin
@@ -503,12 +523,15 @@ module reg_file(clk, rst_n, wen, a1, a2, aw, d, q1, q2);
             mem_nxt[i] = (wen && (aw == i)) ? d : mem[i];
     end
 
-    always @(posedge clk or negedge rst_n) begin
-        if (!rst_n) begin
+    // always @(posedge clk or negedge rst_n) begin
+    //     if (!rst_n) begin
+    always @(posedge clk) begin
+        if (rst_n) begin
             mem[0] <= 0;
             for (i=1; i<word_depth; i=i+1) begin
                 case(i)
-                    32'd2: mem[i] <= 32'hbffffff0;
+                    // 32'd2: mem[i] <= 32'hbffffff0;
+                    32'd2: mem[i] <= 32'h800211f0;
                     32'd3: mem[i] <= 32'h10008000;
                     default: mem[i] <= 32'h0;
                 endcase
@@ -699,9 +722,12 @@ module MulDiv(clk, rst_n, valid, ready, mode, in_A, in_B, out);
     end
 
     // Todo: Sequential always block
-    always @(posedge clk or negedge rst_n) 
+    // always @(posedge clk or negedge rst_n) 
+    // begin
+    //     if (!rst_n)
+    always @(posedge clk) 
     begin
-        if (!rst_n) 
+        if (rst_n) 
         begin
             state <= IDLE;
             counter <= 5'b0;
